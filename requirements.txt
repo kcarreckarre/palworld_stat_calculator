@@ -1,0 +1,6 @@
+
+puppeteer==13.0.0
+fs==0.0.1-security
+requests
+numpy
+ttkbootstrap
