@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Local dependency folder (installed via pip install --target)
+.deps/
+
+# Claude memory
+.claude/
+
+# Databases (contain scraped data, regenerate with scripts)
+pals_database.db
+
+# OS
+.DS_Store
+Thumbs.db
