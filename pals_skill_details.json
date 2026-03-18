@@ -1,0 +1,2702 @@
+[
+  {
+    "name": "Frostallion",
+    "skills": [
+      {
+        "name": "Air Cannon",
+        "element": "/images/icons/T_Icon_element_s_00.png",
+        "power": "25",
+        "cooldown": "2",
+        "range": "500 - 4000"
+      },
+      {
+        "name": "Ice Missile",
+        "element": "/images/icons/T_Icon_element_s_08.png",
+        "power": "30",
+        "cooldown": "3",
+        "range": "800 - 3000"
+      },
+      {
+        "name": "Icicle Cutter",
+        "element": "/images/icons/T_Icon_element_s_08.png",
+        "power": "55",
+        "cooldown": "10",
+        "range": "500 - 4000"
+      },
+      {
+        "name": "Iceberg",
+        "element": "/images/icons/T_Icon_element_s_08.png",
+        "power": "70",
+        "cooldown": "15",
+        "range": "100 - 9999"
+      },
+      {
+        "name": "Crystal Wing",
+        "element": "/images/icons/T_Icon_element_s_08.png",
+        "power": "110",
+        "cooldown": "24",
+        "range": "0 - 2500"
+      },
+      {
+        "name": "Cryst Breath",
+        "element": "/images/icons/T_Icon_element_s_08.png",
+        "power": "90",
+        "cooldown": "22",
+        "range": "100 - 1000"
+      },
+      {
+        "name": "Blizzard Spike",
+        "element": "/images/icons/T_Icon_element_s_08.png",
+        "power": "130",
+        "cooldown": "45",
+        "range": "1000 - 9999"
+      }
+    ]
+  },
+  {
+    "name": "Jetragon",
+    "skills": [
+      {
+        "name": "Spirit Fire",
+        "element": "/images/icons/T_Icon_element_s_01.png",
+        "power": "45",
+        "cooldown": "7",
+        "range": "1000 - 3000"
+      },
+      {
+        "name": "Dragon Burst",
+        "element": "/images/icons/T_Icon_element_s_06.png",
+        "power": "55",
+        "cooldown": "10",
+        "range": "0 - 200"
+      },
+      {
+        "name": "Flare Storm",
+        "element": "/images/icons/T_Icon_element_s_01.png",
+        "power": "80",
+        "cooldown": "18",
+        "range": "700 - 3000"
+      },
+      {
+        "name": "Draconic Breath",
+        "element": "/images/icons/T_Icon_element_s_06.png",
+        "power": "70",
+        "cooldown": "15",
+        "range": "500 - 1500"
+      },
+      {
+        "name": "Beam Comet",
+        "element": "/images/icons/T_Icon_element_s_06.png",
+        "power": "140",
+        "cooldown": "50",
+        "range": "1000 - 9999"
+      },
+      {
+        "name": "Fire Ball",
+        "element": "/images/icons/T_Icon_element_s_01.png",
+        "power": "150",
+        "cooldown": "55",
+        "range": "500 - 9999"
+      },
+      {
+        "name": "Dragon Meteor",
+        "element": "/images/icons/T_Icon_element_s_06.png",
+        "power": "150",
+        "cooldown": "55",
+        "range": "500 - 5000"
+      }
+    ]
+  },
+  {
+    "name": "Paladius",
+    "skills": [
+      {
+        "name": "Power Shot",
+        "element": "/images/icons/T_Icon_element_s_00.png",
+        "power": "35",
+        "cooldown": "4",
+        "range": "600 - 3000"
+      },
+      {
+        "name": "Ice Missile",
+        "element": "/images/icons/T_Icon_element_s_08.png",
+        "power": "30",
+        "cooldown": "3",
+        "range": "800 - 3000"
+      },
+      {
+        "name": "Iceberg",
+        "element": "/images/icons/T_Icon_element_s_08.png",
+        "power": "70",
+        "cooldown": "15",
+        "range": "100 - 9999"
+      },
+      {
+        "name": "Power Bomb",
+        "element": "/images/icons/T_Icon_element_s_00.png",
+        "power": "70",
+        "cooldown": "15",
+        "range": "1000 - 9999"
+      },
+      {
+        "name": "Blizzard Spike",
+        "element": "/images/icons/T_Icon_element_s_08.png",
+        "power": "130",
+        "cooldown": "45",
+        "range": "1000 - 9999"
+      },
+      {
+        "name": "Spear Thrust",
+        "element": "/images/icons/T_Icon_element_s_00.png",
+        "power": "120",
+        "cooldown": "40",
+        "range": "0 - 2500"
+      },
+      {
+        "name": "Pal Blast",
+        "element": "/images/icons/T_Icon_element_s_00.png",
+        "power": "150",
+        "cooldown": "55",
+        "range": "500 - 1800"
+      }
+    ]
+  },
+  {
+    "name": "Necromus",
+    "skills": [
+      {
+        "name": "Shadow Burst",
+        "element": "/images/icons/T_Icon_element_s_05.png",
+        "power": "55",
+        "cooldown": "10",
+        "range": "0 - 300"
+      },
+      {
+        "name": "Spirit Fire",
+        "element": "/images/icons/T_Icon_element_s_01.png",
+        "power": "45",
+        "cooldown": "7",
+        "range": "1000 - 3000"
+      },
+      {
+        "name": "Spirit Flame",
+        "element": "/images/icons/T_Icon_element_s_05.png",
+        "power": "75",
+        "cooldown": "16",
+        "range": "500 - 5000"
+      },
+      {
+        "name": "Nightmare Ball",
+        "element": "/images/icons/T_Icon_element_s_05.png",
+        "power": "100",
+        "cooldown": "30",
+        "range": "1000 - 9999"
+      },
+      {
+        "name": "Rock Lance",
+        "element": "/images/icons/T_Icon_element_s_07.png",
+        "power": "150",
+        "cooldown": "55",
+        "range": "100 - 9999"
+      },
+      {
+        "name": "Twin Spears",
+        "element": "/images/icons/T_Icon_element_s_05.png",
+        "power": "120",
+        "cooldown": "40",
+        "range": "0 - 1000"
+      },
+      {
+        "name": "Dark Laser",
+        "element": "/images/icons/T_Icon_element_s_05.png",
+        "power": "150",
+        "cooldown": "55",
+        "range": "500 - 1800"
+      }
+    ]
+  },
+  {
+    "name": "Bellanoir",
+    "skills": [
+      {
+        "name": "Dark Cannon",
+        "element": "/images/icons/T_Icon_element_s_05.png",
+        "power": "50",
+        "cooldown": "2",
+        "range": "500 - 5000"
+      },
+      {
+        "name": "Umbral Surge",
+        "element": "/images/icons/T_Icon_element_s_05.png",
+        "power": "40",
+        "cooldown": "2",
+        "range": "500 - 5000"
+      },
+      {
+        "name": "Dark Arrow",
+        "element": "/images/icons/T_Icon_element_s_05.png",
+        "power": "65",
+        "cooldown": "10",
+        "range": "500 - 5000"
+      },
+      {
+        "name": "Spirit Flame",
+        "element": "/images/icons/T_Icon_element_s_05.png",
+        "power": "75",
+        "cooldown": "16",
+        "range": "500 - 5000"
+      },
+      {
+        "name": "Nightmare Ball",
+        "element": "/images/icons/T_Icon_element_s_05.png",
+        "power": "100",
+        "cooldown": "30",
+        "range": "1000 - 9999"
+      },
+      {
+        "name": "Apocalypse",
+        "element": "/images/icons/T_Icon_element_s_05.png",
+        "power": "110",
+        "cooldown": "55",
+        "range": "100 - 9999"
+      },
+      {
+        "name": "Nightmare Ray",
+        "element": "/images/icons/T_Icon_element_s_05.png",
+        "power": "140",
+        "cooldown": "50",
+        "range": "0 - 9999"
+      }
+    ]
+  },
+  {
+    "name": "Anubis",
+    "skills": [
+      {
+        "name": "Stone Blast",
+        "element": "/images/icons/T_Icon_element_s_07.png",
+        "power": "55",
+        "cooldown": "10",
+        "range": "500 - 4000"
+      },
+      {
+        "name": "Power Bomb",
+        "element": "/images/icons/T_Icon_element_s_00.png",
+        "power": "70",
+        "cooldown": "15",
+        "range": "1000 - 9999"
+      },
+      {
+        "name": "Sand Tornado",
+        "element": "/images/icons/T_Icon_element_s_07.png",
+        "power": "80",
+        "cooldown": "18",
+        "range": "100 - 3000"
+      },
+      {
+        "name": "Spinning Roundhouse",
+        "element": "/images/icons/T_Icon_element_s_07.png",
+        "power": "100",
+        "cooldown": "21",
+        "range": "0 - 300"
+      },
+      {
+        "name": "Forceful Charge",
+        "element": "/images/icons/T_Icon_element_s_07.png",
+        "power": "120",
+        "cooldown": "28",
+        "range": "1500 - 5000"
+      },
+      {
+        "name": "Ground Smash",
+        "element": "/images/icons/T_Icon_element_s_07.png",
+        "power": "140",
+        "cooldown": "35",
+        "range": "0 - 5000"
+      },
+      {
+        "name": "Rock Lance",
+        "element": "/images/icons/T_Icon_element_s_07.png",
+        "power": "150",
+        "cooldown": "55",
+        "range": "100 - 9999"
+      }
+    ]
+  },
+  {
+    "name": "Grizzbolt",
+    "skills": [
+      {
+        "name": "Spark Blast",
+        "element": "/images/icons/T_Icon_element_s_03.png",
+        "power": "30",
+        "cooldown": "2",
+        "range": "500 - 5000"
+      },
+      {
+        "name": "Shockwave",
+        "element": "/images/icons/T_Icon_element_s_03.png",
+        "power": "40",
+        "cooldown": "4",
+        "range": "0 - 300"
+      },
+      {
+        "name": "Lightning Claw",
+        "element": "/images/icons/T_Icon_element_s_03.png",
+        "power": "90",
+        "cooldown": "22",
+        "range": "0 - 700"
+      },
+      {
+        "name": "Lightning Streak",
+        "element": "/images/icons/T_Icon_element_s_03.png",
+        "power": "75",
+        "cooldown": "16",
+        "range": "500 - 2000"
+      },
+      {
+        "name": "Tri-Lightning",
+        "element": "/images/icons/T_Icon_element_s_03.png",
+        "power": "90",
+        "cooldown": "22",
+        "range": "0 - 9999"
+      },
+      {
+        "name": "Lightning Strike",
+        "element": "/images/icons/T_Icon_element_s_03.png",
+        "power": "120",
+        "cooldown": "40",
+        "range": "0 - 500"
+      },
+      {
+        "name": "Lightning Bolt",
+        "element": "/images/icons/T_Icon_element_s_03.png",
+        "power": "150",
+        "cooldown": "55",
+        "range": "500 - 3000"
+      }
+    ]
+  },
+  {
+    "name": "Jormuntide",
+    "skills": [
+      {
+        "name": "Aqua Gun",
+        "element": "/images/icons/T_Icon_element_s_02.png",
+        "power": "40",
+        "cooldown": "4",
+        "range": "500 - 5000"
+      },
+      {
+        "name": "Dragon Cannon",
+        "element": "/images/icons/T_Icon_element_s_06.png",
+        "power": "30",
+        "cooldown": "2",
+        "range": "500 - 4000"
+      },
+      {
+        "name": "Draconic Breath",
+        "element": "/images/icons/T_Icon_element_s_06.png",
+        "power": "70",
+        "cooldown": "15",
+        "range": "500 - 1500"
+      },
+      {
+        "name": "Aqua Burst",
+        "element": "/images/icons/T_Icon_element_s_02.png",
+        "power": "100",
+        "cooldown": "30",
+        "range": "1000 - 9999"
+      },
+      {
+        "name": "Tri-Lightning",
+        "element": "/images/icons/T_Icon_element_s_03.png",
+        "power": "90",
+        "cooldown": "22",
+        "range": "0 - 9999"
+      },
+      {
+        "name": "Hydro Laser",
+        "element": "/images/icons/T_Icon_element_s_02.png",
+        "power": "150",
+        "cooldown": "55",
+        "range": "500 - 1800"
+      },
+      {
+        "name": "Dragon Meteor",
+        "element": "/images/icons/T_Icon_element_s_06.png",
+        "power": "150",
+        "cooldown": "55",
+        "range": "500 - 5000"
+      }
+    ]
+  },
+  {
+    "name": "Suzaku",
+    "skills": [
+      {
+        "name": "Air Cannon",
+        "element": "/images/icons/T_Icon_element_s_00.png",
+        "power": "25",
+        "cooldown": "2",
+        "range": "500 - 4000"
+      },
+      {
+        "name": "Ignis Blast",
+        "element": "/images/icons/T_Icon_element_s_01.png",
+        "power": "30",
+        "cooldown": "2",
+        "range": "500 - 5000"
+      },
+      {
+        "name": "Spirit Fire",
+        "element": "/images/icons/T_Icon_element_s_01.png",
+        "power": "45",
+        "cooldown": "7",
+        "range": "1000 - 3000"
+      },
+      {
+        "name": "Flare Arrow",
+        "element": "/images/icons/T_Icon_element_s_01.png",
+        "power": "55",
+        "cooldown": "10",
+        "range": "500 - 5000"
+      },
+      {
+        "name": "Ignis Breath",
+        "element": "/images/icons/T_Icon_element_s_01.png",
+        "power": "70",
+        "cooldown": "15",
+        "range": "500 - 1500"
+      },
+      {
+        "name": "Flare Storm",
+        "element": "/images/icons/T_Icon_element_s_01.png",
+        "power": "80",
+        "cooldown": "18",
+        "range": "700 - 3000"
+      },
+      {
+        "name": "Fire Ball",
+        "element": "/images/icons/T_Icon_element_s_01.png",
+        "power": "150",
+        "cooldown": "55",
+        "range": "500 - 9999"
+      }
+    ]
+  },
+  {
+    "name": "Elphidran Aqua",
+    "skills": [
+      {
+        "name": "Aqua Gun",
+        "element": "/images/icons/T_Icon_element_s_02.png",
+        "power": "40",
+        "cooldown": "4",
+        "range": "500 - 5000"
+      },
+      {
+        "name": "Dragon Cannon",
+        "element": "/images/icons/T_Icon_element_s_06.png",
+        "power": "30",
+        "cooldown": "2",
+        "range": "500 - 4000"
+      },
+      {
+        "name": "Dragon Burst",
+        "element": "/images/icons/T_Icon_element_s_06.png",
+        "power": "55",
+        "cooldown": "10",
+        "range": "0 - 200"
+      },
+      {
+        "name": "Mystic Whirlwind",
+        "element": "/images/icons/T_Icon_element_s_06.png",
+        "power": "70",
+        "cooldown": "10",
+        "range": "0 - 3000"
+      },
+      {
+        "name": "Acid Rain",
+        "element": "/images/icons/T_Icon_element_s_02.png",
+        "power": "80",
+        "cooldown": "18",
+        "range": "100 - 1000"
+      },
+      {
+        "name": "Hydro Laser",
+        "element": "/images/icons/T_Icon_element_s_02.png",
+        "power": "150",
+        "cooldown": "55",
+        "range": "500 - 1800"
+      },
+      {
+        "name": "Dragon Meteor",
+        "element": "/images/icons/T_Icon_element_s_06.png",
+        "power": "150",
+        "cooldown": "55",
+        "range": "500 - 5000"
+      }
+    ]
+  },
+  {
+    "name": "Relaxaurus",
+    "skills": [
+      {
+        "name": "Dragon Cannon",
+        "element": "/images/icons/T_Icon_element_s_06.png",
+        "power": "30",
+        "cooldown": "2",
+        "range": "500 - 4000"
+      },
+      {
+        "name": "Aqua Gun",
+        "element": "/images/icons/T_Icon_element_s_02.png",
+        "power": "40",
+        "cooldown": "4",
+        "range": "500 - 5000"
+      },
+      {
+        "name": "Dragon Burst",
+        "element": "/images/icons/T_Icon_element_s_06.png",
+        "power": "55",
+        "cooldown": "10",
+        "range": "0 - 200"
+      },
+      {
+        "name": "Bubble Blast",
+        "element": "/images/icons/T_Icon_element_s_02.png",
+        "power": "65",
+        "cooldown": "13",
+        "range": "1000 - 3500"
+      },
+      {
+        "name": "Draconic Breath",
+        "element": "/images/icons/T_Icon_element_s_06.png",
+        "power": "70",
+        "cooldown": "15",
+        "range": "500 - 1500"
+      },
+      {
+        "name": "Aqua Burst",
+        "element": "/images/icons/T_Icon_element_s_02.png",
+        "power": "100",
+        "cooldown": "30",
+        "range": "1000 - 9999"
+      },
+      {
+        "name": "Dragon Meteor",
+        "element": "/images/icons/T_Icon_element_s_06.png",
+        "power": "150",
+        "cooldown": "55",
+        "range": "500 - 5000"
+      }
+    ]
+  },
+  {
+    "name": "Kingpaca",
+    "skills": [
+      {
+        "name": "Sand Blast",
+        "element": "/images/icons/T_Icon_element_s_07.png",
+        "power": "40",
+        "cooldown": "4",
+        "range": "500 - 3000"
+      },
+      {
+        "name": "Power Shot",
+        "element": "/images/icons/T_Icon_element_s_00.png",
+        "power": "35",
+        "cooldown": "4",
+        "range": "600 - 3000"
+      },
+      {
+        "name": "Power Bomb",
+        "element": "/images/icons/T_Icon_element_s_00.png",
+        "power": "70",
+        "cooldown": "15",
+        "range": "1000 - 9999"
+      },
+      {
+        "name": "Kingly Slam",
+        "element": "/images/icons/T_Icon_element_s_00.png",
+        "power": "100",
+        "cooldown": "21",
+        "range": "0 - 1000"
+      },
+      {
+        "name": "Tri-Lightning",
+        "element": "/images/icons/T_Icon_element_s_03.png",
+        "power": "90",
+        "cooldown": "22",
+        "range": "0 - 9999"
+      },
+      {
+        "name": "Rock Lance",
+        "element": "/images/icons/T_Icon_element_s_07.png",
+        "power": "150",
+        "cooldown": "55",
+        "range": "100 - 9999"
+      },
+      {
+        "name": "Pal Blast",
+        "element": "/images/icons/T_Icon_element_s_00.png",
+        "power": "150",
+        "cooldown": "55",
+        "range": "500 - 1800"
+      }
+    ]
+  },
+  {
+    "name": "Menasting",
+    "skills": [
+      {
+        "name": "Sand Blast",
+        "element": "/images/icons/T_Icon_element_s_07.png",
+        "power": "40",
+        "cooldown": "4",
+        "range": "500 - 3000"
+      },
+      {
+        "name": "Poison Blast",
+        "element": "/images/icons/T_Icon_element_s_05.png",
+        "power": "30",
+        "cooldown": "2",
+        "range": "500 - 3000"
+      },
+      {
+        "name": "Shadow Burst",
+        "element": "/images/icons/T_Icon_element_s_05.png",
+        "power": "55",
+        "cooldown": "10",
+        "range": "0 - 300"
+      },
+      {
+        "name": "Stone Cannon",
+        "element": "/images/icons/T_Icon_element_s_07.png",
+        "power": "70",
+        "cooldown": "15",
+        "range": "500 - 2500"
+      },
+      {
+        "name": "Nightmare Ball",
+        "element": "/images/icons/T_Icon_element_s_05.png",
+        "power": "100",
+        "cooldown": "30",
+        "range": "1000 - 9999"
+      },
+      {
+        "name": "Rock Lance",
+        "element": "/images/icons/T_Icon_element_s_07.png",
+        "power": "150",
+        "cooldown": "55",
+        "range": "100 - 9999"
+      },
+      {
+        "name": "Dark Laser",
+        "element": "/images/icons/T_Icon_element_s_05.png",
+        "power": "150",
+        "cooldown": "55",
+        "range": "500 - 1800"
+      }
+    ]
+  },
+  {
+    "name": "Blazamut",
+    "skills": [
+      {
+        "name": "Power Shot",
+        "element": "/images/icons/T_Icon_element_s_00.png",
+        "power": "35",
+        "cooldown": "4",
+        "range": "600 - 3000"
+      },
+      {
+        "name": "Ignis Blast",
+        "element": "/images/icons/T_Icon_element_s_01.png",
+        "power": "30",
+        "cooldown": "2",
+        "range": "500 - 5000"
+      },
+      {
+        "name": "Stone Blast",
+        "element": "/images/icons/T_Icon_element_s_07.png",
+        "power": "55",
+        "cooldown": "10",
+        "range": "500 - 4000"
+      },
+      {
+        "name": "Ignis Breath",
+        "element": "/images/icons/T_Icon_element_s_01.png",
+        "power": "70",
+        "cooldown": "15",
+        "range": "500 - 1500"
+      },
+      {
+        "name": "Ignis Rage",
+        "element": "/images/icons/T_Icon_element_s_01.png",
+        "power": "120",
+        "cooldown": "40",
+        "range": "100 - 1000"
+      },
+      {
+        "name": "Fire Ball",
+        "element": "/images/icons/T_Icon_element_s_01.png",
+        "power": "150",
+        "cooldown": "55",
+        "range": "500 - 9999"
+      },
+      {
+        "name": "Rock Lance",
+        "element": "/images/icons/T_Icon_element_s_07.png",
+        "power": "150",
+        "cooldown": "55",
+        "range": "100 - 9999"
+      }
+    ]
+  },
+  {
+    "name": "Orserk",
+    "skills": [
+      {
+        "name": "Kerauno",
+        "element": "/images/icons/T_Icon_element_s_03.png",
+        "power": "100",
+        "cooldown": "30",
+        "range": "0 - 9999"
+      },
+      {
+        "name": "Lightning Strike",
+        "element": "/images/icons/T_Icon_element_s_03.png",
+        "power": "120",
+        "cooldown": "40",
+        "range": "0 - 500"
+      },
+      {
+        "name": "Spark Blast",
+        "element": "/images/icons/T_Icon_element_s_03.png",
+        "power": "30",
+        "cooldown": "2",
+        "range": "500 - 5000"
+      },
+      {
+        "name": "Draconic Breath",
+        "element": "/images/icons/T_Icon_element_s_06.png",
+        "power": "70",
+        "cooldown": "15",
+        "range": "500 - 1500"
+      },
+      {
+        "name": "Lightning Streak",
+        "element": "/images/icons/T_Icon_element_s_03.png",
+        "power": "75",
+        "cooldown": "16",
+        "range": "500 - 2000"
+      },
+      {
+        "name": "Tri-Lightning",
+        "element": "/images/icons/T_Icon_element_s_03.png",
+        "power": "90",
+        "cooldown": "22",
+        "range": "0 - 9999"
+      },
+      {
+        "name": "Lightning Bolt",
+        "element": "/images/icons/T_Icon_element_s_03.png",
+        "power": "150",
+        "cooldown": "55",
+        "range": "500 - 3000"
+      }
+    ]
+  },
+  {
+    "name": "Incineram",
+    "skills": [
+      {
+        "name": "Ignis Blast",
+        "element": "/images/icons/T_Icon_element_s_01.png",
+        "power": "30",
+        "cooldown": "2",
+        "range": "500 - 5000"
+      },
+      {
+        "name": "Spirit Fire",
+        "element": "/images/icons/T_Icon_element_s_01.png",
+        "power": "45",
+        "cooldown": "7",
+        "range": "1000 - 3000"
+      },
+      {
+        "name": "Flare Arrow",
+        "element": "/images/icons/T_Icon_element_s_01.png",
+        "power": "55",
+        "cooldown": "10",
+        "range": "500 - 5000"
+      },
+      {
+        "name": "Hellfire Claw",
+        "element": "/images/icons/T_Icon_element_s_01.png",
+        "power": "70",
+        "cooldown": "10",
+        "range": "1100 - 1200"
+      },
+      {
+        "name": "Shadow Burst",
+        "element": "/images/icons/T_Icon_element_s_05.png",
+        "power": "55",
+        "cooldown": "10",
+        "range": "0 - 300"
+      },
+      {
+        "name": "Fire Ball",
+        "element": "/images/icons/T_Icon_element_s_01.png",
+        "power": "150",
+        "cooldown": "55",
+        "range": "500 - 9999"
+      },
+      {
+        "name": "Ignis Rage",
+        "element": "/images/icons/T_Icon_element_s_01.png",
+        "power": "120",
+        "cooldown": "40",
+        "range": "100 - 1000"
+      }
+    ]
+  },
+  {
+    "name": "Lunaris",
+    "skills": [
+      {
+        "name": "Air Cannon",
+        "element": "/images/icons/T_Icon_element_s_00.png",
+        "power": "25",
+        "cooldown": "2",
+        "range": "500 - 4000"
+      },
+      {
+        "name": "Power Shot",
+        "element": "/images/icons/T_Icon_element_s_00.png",
+        "power": "35",
+        "cooldown": "4",
+        "range": "600 - 3000"
+      },
+      {
+        "name": "Icicle Cutter",
+        "element": "/images/icons/T_Icon_element_s_08.png",
+        "power": "55",
+        "cooldown": "10",
+        "range": "500 - 4000"
+      },
+      {
+        "name": "Plasma Tornado",
+        "element": "/images/icons/T_Icon_element_s_03.png",
+        "power": "65",
+        "cooldown": "13",
+        "range": "500 - 9999"
+      },
+      {
+        "name": "Power Bomb",
+        "element": "/images/icons/T_Icon_element_s_00.png",
+        "power": "70",
+        "cooldown": "15",
+        "range": "1000 - 9999"
+      },
+      {
+        "name": "Blizzard Spike",
+        "element": "/images/icons/T_Icon_element_s_08.png",
+        "power": "130",
+        "cooldown": "45",
+        "range": "1000 - 9999"
+      },
+      {
+        "name": "Pal Blast",
+        "element": "/images/icons/T_Icon_element_s_00.png",
+        "power": "150",
+        "cooldown": "55",
+        "range": "500 - 1800"
+      }
+    ]
+  },
+  {
+    "name": "Pyrin",
+    "skills": [
+      {
+        "name": "Sand Blast",
+        "element": "/images/icons/T_Icon_element_s_07.png",
+        "power": "40",
+        "cooldown": "4",
+        "range": "500 - 3000"
+      },
+      {
+        "name": "Ignis Blast",
+        "element": "/images/icons/T_Icon_element_s_01.png",
+        "power": "30",
+        "cooldown": "2",
+        "range": "500 - 5000"
+      },
+      {
+        "name": "Spirit Fire",
+        "element": "/images/icons/T_Icon_element_s_01.png",
+        "power": "45",
+        "cooldown": "7",
+        "range": "1000 - 3000"
+      },
+      {
+        "name": "Flare Arrow",
+        "element": "/images/icons/T_Icon_element_s_01.png",
+        "power": "55",
+        "cooldown": "10",
+        "range": "500 - 5000"
+      },
+      {
+        "name": "Ignis Slam",
+        "element": "/images/icons/T_Icon_element_s_01.png",
+        "power": "85",
+        "cooldown": "14",
+        "range": "0 - 2500"
+      },
+      {
+        "name": "Ignis Rage",
+        "element": "/images/icons/T_Icon_element_s_01.png",
+        "power": "120",
+        "cooldown": "40",
+        "range": "100 - 1000"
+      },
+      {
+        "name": "Fire Ball",
+        "element": "/images/icons/T_Icon_element_s_01.png",
+        "power": "150",
+        "cooldown": "55",
+        "range": "500 - 9999"
+      }
+    ]
+  },
+  {
+    "name": "Robinquill",
+    "skills": [
+      {
+        "name": "Wind Cutter",
+        "element": "/images/icons/T_Icon_element_s_04.png",
+        "power": "30",
+        "cooldown": "2",
+        "range": "500 - 5000"
+      },
+      {
+        "name": "Power Shot",
+        "element": "/images/icons/T_Icon_element_s_00.png",
+        "power": "35",
+        "cooldown": "4",
+        "range": "600 - 3000"
+      },
+      {
+        "name": "Focus Shot",
+        "element": "/images/icons/T_Icon_element_s_04.png",
+        "power": "65",
+        "cooldown": "9",
+        "range": "1000 - 5000"
+      },
+      {
+        "name": "Seed Mine",
+        "element": "/images/icons/T_Icon_element_s_04.png",
+        "power": "65",
+        "cooldown": "13",
+        "range": "800 - 9999"
+      },
+      {
+        "name": "Grass Tornado",
+        "element": "/images/icons/T_Icon_element_s_04.png",
+        "power": "80",
+        "cooldown": "18",
+        "range": "700 - 3000"
+      },
+      {
+        "name": "Spine Vine",
+        "element": "/images/icons/T_Icon_element_s_04.png",
+        "power": "95",
+        "cooldown": "25",
+        "range": "500 - 9999"
+      },
+      {
+        "name": "Solar Blast",
+        "element": "/images/icons/T_Icon_element_s_04.png",
+        "power": "150",
+        "cooldown": "55",
+        "range": "500 - 1800"
+      }
+    ]
+  },
+  {
+    "name": "Kitsun",
+    "skills": [
+      {
+        "name": "Ignis Blast",
+        "element": "/images/icons/T_Icon_element_s_01.png",
+        "power": "30",
+        "cooldown": "2",
+        "range": "500 - 5000"
+      },
+      {
+        "name": "Spirit Fire",
+        "element": "/images/icons/T_Icon_element_s_01.png",
+        "power": "45",
+        "cooldown": "7",
+        "range": "1000 - 3000"
+      },
+      {
+        "name": "Spirit Flame",
+        "element": "/images/icons/T_Icon_element_s_05.png",
+        "power": "75",
+        "cooldown": "16",
+        "range": "500 - 5000"
+      },
+      {
+        "name": "Daring Flames",
+        "element": "/images/icons/T_Icon_element_s_01.png",
+        "power": "75",
+        "cooldown": "10",
+        "range": "1000 - 3500"
+      },
+      {
+        "name": "Flare Storm",
+        "element": "/images/icons/T_Icon_element_s_01.png",
+        "power": "80",
+        "cooldown": "18",
+        "range": "700 - 3000"
+      },
+      {
+        "name": "Ignis Rage",
+        "element": "/images/icons/T_Icon_element_s_01.png",
+        "power": "120",
+        "cooldown": "40",
+        "range": "100 - 1000"
+      },
+      {
+        "name": "Fire Ball",
+        "element": "/images/icons/T_Icon_element_s_01.png",
+        "power": "150",
+        "cooldown": "55",
+        "range": "500 - 9999"
+      }
+    ]
+  },
+  {
+    "name": "Mossanda",
+    "skills": [
+      {
+        "name": "Power Shot",
+        "element": "/images/icons/T_Icon_element_s_00.png",
+        "power": "35",
+        "cooldown": "4",
+        "range": "600 - 3000"
+      },
+      {
+        "name": "Seed Machine Gun",
+        "element": "/images/icons/T_Icon_element_s_04.png",
+        "power": "50",
+        "cooldown": "9",
+        "range": "0 - 300"
+      },
+      {
+        "name": "Stone Cannon",
+        "element": "/images/icons/T_Icon_element_s_07.png",
+        "power": "70",
+        "cooldown": "15",
+        "range": "500 - 2500"
+      },
+      {
+        "name": "Crushing Punch",
+        "element": "/images/icons/T_Icon_element_s_04.png",
+        "power": "85",
+        "cooldown": "18",
+        "range": "0 - 700"
+      },
+      {
+        "name": "Seed Mine",
+        "element": "/images/icons/T_Icon_element_s_04.png",
+        "power": "65",
+        "cooldown": "13",
+        "range": "800 - 9999"
+      },
+      {
+        "name": "Spine Vine",
+        "element": "/images/icons/T_Icon_element_s_04.png",
+        "power": "95",
+        "cooldown": "25",
+        "range": "500 - 9999"
+      },
+      {
+        "name": "Solar Blast",
+        "element": "/images/icons/T_Icon_element_s_04.png",
+        "power": "150",
+        "cooldown": "55",
+        "range": "500 - 1800"
+      }
+    ]
+  },
+  {
+    "name": "Foxcicle",
+    "skills": [
+      {
+        "name": "Air Cannon",
+        "element": "/images/icons/T_Icon_element_s_00.png",
+        "power": "25",
+        "cooldown": "2",
+        "range": "500 - 4000"
+      },
+      {
+        "name": "Ice Missile",
+        "element": "/images/icons/T_Icon_element_s_08.png",
+        "power": "30",
+        "cooldown": "3",
+        "range": "800 - 3000"
+      },
+      {
+        "name": "Icicle Cutter",
+        "element": "/images/icons/T_Icon_element_s_08.png",
+        "power": "55",
+        "cooldown": "10",
+        "range": "500 - 4000"
+      },
+      {
+        "name": "Spirit Flame",
+        "element": "/images/icons/T_Icon_element_s_05.png",
+        "power": "75",
+        "cooldown": "16",
+        "range": "500 - 5000"
+      },
+      {
+        "name": "Iceberg",
+        "element": "/images/icons/T_Icon_element_s_08.png",
+        "power": "70",
+        "cooldown": "15",
+        "range": "100 - 9999"
+      },
+      {
+        "name": "Cryst Breath",
+        "element": "/images/icons/T_Icon_element_s_08.png",
+        "power": "90",
+        "cooldown": "22",
+        "range": "100 - 1000"
+      },
+      {
+        "name": "Blizzard Spike",
+        "element": "/images/icons/T_Icon_element_s_08.png",
+        "power": "130",
+        "cooldown": "45",
+        "range": "1000 - 9999"
+      }
+    ]
+  },
+  {
+    "name": "Nitewing",
+    "skills": [
+      {
+        "name": "Air Cannon",
+        "element": "/images/icons/T_Icon_element_s_00.png",
+        "power": "25",
+        "cooldown": "2",
+        "range": "500 - 4000"
+      },
+      {
+        "name": "Tornado Attack",
+        "element": "/images/icons/T_Icon_element_s_00.png",
+        "power": "65",
+        "cooldown": "13",
+        "range": "0 - 2500"
+      },
+      {
+        "name": "Wind Cutter",
+        "element": "/images/icons/T_Icon_element_s_04.png",
+        "power": "30",
+        "cooldown": "2",
+        "range": "500 - 5000"
+      },
+      {
+        "name": "Power Bomb",
+        "element": "/images/icons/T_Icon_element_s_00.png",
+        "power": "70",
+        "cooldown": "15",
+        "range": "1000 - 9999"
+      },
+      {
+        "name": "Sand Tornado",
+        "element": "/images/icons/T_Icon_element_s_07.png",
+        "power": "80",
+        "cooldown": "18",
+        "range": "100 - 3000"
+      },
+      {
+        "name": "Grass Tornado",
+        "element": "/images/icons/T_Icon_element_s_04.png",
+        "power": "80",
+        "cooldown": "18",
+        "range": "700 - 3000"
+      },
+      {
+        "name": "Pal Blast",
+        "element": "/images/icons/T_Icon_element_s_00.png",
+        "power": "150",
+        "cooldown": "55",
+        "range": "500 - 1800"
+      }
+    ]
+  },
+  {
+    "name": "Mau",
+    "skills": [
+      {
+        "name": "Sand Blast",
+        "element": "/images/icons/T_Icon_element_s_07.png",
+        "power": "40",
+        "cooldown": "4",
+        "range": "500 - 3000"
+      },
+      {
+        "name": "Dark Ball",
+        "element": "/images/icons/T_Icon_element_s_05.png",
+        "power": "40",
+        "cooldown": "4",
+        "range": "500 - 1000"
+      },
+      {
+        "name": "Shadow Burst",
+        "element": "/images/icons/T_Icon_element_s_05.png",
+        "power": "55",
+        "cooldown": "10",
+        "range": "0 - 300"
+      },
+      {
+        "name": "Sand Tornado",
+        "element": "/images/icons/T_Icon_element_s_07.png",
+        "power": "80",
+        "cooldown": "18",
+        "range": "100 - 3000"
+      },
+      {
+        "name": "Spirit Flame",
+        "element": "/images/icons/T_Icon_element_s_05.png",
+        "power": "75",
+        "cooldown": "16",
+        "range": "500 - 5000"
+      },
+      {
+        "name": "Nightmare Ball",
+        "element": "/images/icons/T_Icon_element_s_05.png",
+        "power": "100",
+        "cooldown": "30",
+        "range": "1000 - 9999"
+      },
+      {
+        "name": "Dark Laser",
+        "element": "/images/icons/T_Icon_element_s_05.png",
+        "power": "150",
+        "cooldown": "55",
+        "range": "500 - 1800"
+      }
+    ]
+  },
+  {
+    "name": "Rushoar",
+    "skills": [
+      {
+        "name": "Reckless Charge",
+        "element": "/images/icons/T_Icon_element_s_00.png",
+        "power": "55",
+        "cooldown": "2",
+        "range": "300 - 2500"
+      },
+      {
+        "name": "Sand Blast",
+        "element": "/images/icons/T_Icon_element_s_07.png",
+        "power": "40",
+        "cooldown": "4",
+        "range": "500 - 3000"
+      },
+      {
+        "name": "Power Shot",
+        "element": "/images/icons/T_Icon_element_s_00.png",
+        "power": "35",
+        "cooldown": "4",
+        "range": "600 - 3000"
+      },
+      {
+        "name": "Stone Blast",
+        "element": "/images/icons/T_Icon_element_s_07.png",
+        "power": "55",
+        "cooldown": "10",
+        "range": "500 - 4000"
+      },
+      {
+        "name": "Power Bomb",
+        "element": "/images/icons/T_Icon_element_s_00.png",
+        "power": "70",
+        "cooldown": "15",
+        "range": "1000 - 9999"
+      },
+      {
+        "name": "Rock Lance",
+        "element": "/images/icons/T_Icon_element_s_07.png",
+        "power": "150",
+        "cooldown": "55",
+        "range": "100 - 9999"
+      },
+      {
+        "name": "Pal Blast",
+        "element": "/images/icons/T_Icon_element_s_00.png",
+        "power": "150",
+        "cooldown": "55",
+        "range": "500 - 1800"
+      }
+    ]
+  },
+  {
+    "name": "Galeclaw",
+    "skills": [
+      {
+        "name": "Gale Claw",
+        "element": "/images/icons/T_Icon_element_s_00.png",
+        "power": "60",
+        "cooldown": "8",
+        "range": "0 - 1000"
+      },
+      {
+        "name": "Air Cannon",
+        "element": "/images/icons/T_Icon_element_s_00.png",
+        "power": "25",
+        "cooldown": "2",
+        "range": "500 - 4000"
+      },
+      {
+        "name": "Sand Blast",
+        "element": "/images/icons/T_Icon_element_s_07.png",
+        "power": "40",
+        "cooldown": "4",
+        "range": "500 - 3000"
+      },
+      {
+        "name": "Wind Cutter",
+        "element": "/images/icons/T_Icon_element_s_04.png",
+        "power": "30",
+        "cooldown": "2",
+        "range": "500 - 5000"
+      },
+      {
+        "name": "Sand Tornado",
+        "element": "/images/icons/T_Icon_element_s_07.png",
+        "power": "80",
+        "cooldown": "18",
+        "range": "100 - 3000"
+      },
+      {
+        "name": "Grass Tornado",
+        "element": "/images/icons/T_Icon_element_s_04.png",
+        "power": "80",
+        "cooldown": "18",
+        "range": "700 - 3000"
+      },
+      {
+        "name": "Pal Blast",
+        "element": "/images/icons/T_Icon_element_s_00.png",
+        "power": "150",
+        "cooldown": "55",
+        "range": "500 - 1800"
+      }
+    ]
+  },
+  {
+    "name": "Jolthog",
+    "skills": [
+      {
+        "name": "Shockwave",
+        "element": "/images/icons/T_Icon_element_s_03.png",
+        "power": "40",
+        "cooldown": "4",
+        "range": "0 - 300"
+      },
+      {
+        "name": "Power Shot",
+        "element": "/images/icons/T_Icon_element_s_00.png",
+        "power": "35",
+        "cooldown": "4",
+        "range": "600 - 3000"
+      },
+      {
+        "name": "Electric Ball",
+        "element": "/images/icons/T_Icon_element_s_03.png",
+        "power": "50",
+        "cooldown": "9",
+        "range": "500 - 2500"
+      },
+      {
+        "name": "Power Bomb",
+        "element": "/images/icons/T_Icon_element_s_00.png",
+        "power": "70",
+        "cooldown": "15",
+        "range": "1000 - 9999"
+      },
+      {
+        "name": "Tri-Lightning",
+        "element": "/images/icons/T_Icon_element_s_03.png",
+        "power": "90",
+        "cooldown": "22",
+        "range": "0 - 9999"
+      },
+      {
+        "name": "Lightning Streak",
+        "element": "/images/icons/T_Icon_element_s_03.png",
+        "power": "75",
+        "cooldown": "16",
+        "range": "500 - 2000"
+      },
+      {
+        "name": "Lightning Bolt",
+        "element": "/images/icons/T_Icon_element_s_03.png",
+        "power": "150",
+        "cooldown": "55",
+        "range": "500 - 3000"
+      }
+    ]
+  },
+  {
+    "name": "Bristla",
+    "skills": [
+      {
+        "name": "Wind Cutter",
+        "element": "/images/icons/T_Icon_element_s_04.png",
+        "power": "30",
+        "cooldown": "2",
+        "range": "500 - 5000"
+      },
+      {
+        "name": "Seed Machine Gun",
+        "element": "/images/icons/T_Icon_element_s_04.png",
+        "power": "50",
+        "cooldown": "9",
+        "range": "0 - 300"
+      },
+      {
+        "name": "Ice Missile",
+        "element": "/images/icons/T_Icon_element_s_08.png",
+        "power": "30",
+        "cooldown": "3",
+        "range": "800 - 3000"
+      },
+      {
+        "name": "Grass Tornado",
+        "element": "/images/icons/T_Icon_element_s_04.png",
+        "power": "80",
+        "cooldown": "18",
+        "range": "700 - 3000"
+      },
+      {
+        "name": "Iceberg",
+        "element": "/images/icons/T_Icon_element_s_08.png",
+        "power": "70",
+        "cooldown": "15",
+        "range": "100 - 9999"
+      },
+      {
+        "name": "Spine Vine",
+        "element": "/images/icons/T_Icon_element_s_04.png",
+        "power": "95",
+        "cooldown": "25",
+        "range": "500 - 9999"
+      },
+      {
+        "name": "Solar Blast",
+        "element": "/images/icons/T_Icon_element_s_04.png",
+        "power": "150",
+        "cooldown": "55",
+        "range": "500 - 1800"
+      }
+    ]
+  },
+  {
+    "name": "Hangyu",
+    "skills": [
+      {
+        "name": "Sand Blast",
+        "element": "/images/icons/T_Icon_element_s_07.png",
+        "power": "40",
+        "cooldown": "4",
+        "range": "500 - 3000"
+      },
+      {
+        "name": "Air Cannon",
+        "element": "/images/icons/T_Icon_element_s_00.png",
+        "power": "25",
+        "cooldown": "2",
+        "range": "500 - 4000"
+      },
+      {
+        "name": "Wind Cutter",
+        "element": "/images/icons/T_Icon_element_s_04.png",
+        "power": "30",
+        "cooldown": "2",
+        "range": "500 - 5000"
+      },
+      {
+        "name": "Power Shot",
+        "element": "/images/icons/T_Icon_element_s_00.png",
+        "power": "35",
+        "cooldown": "4",
+        "range": "600 - 3000"
+      },
+      {
+        "name": "Power Bomb",
+        "element": "/images/icons/T_Icon_element_s_00.png",
+        "power": "70",
+        "cooldown": "15",
+        "range": "1000 - 9999"
+      },
+      {
+        "name": "Sand Tornado",
+        "element": "/images/icons/T_Icon_element_s_07.png",
+        "power": "80",
+        "cooldown": "18",
+        "range": "100 - 3000"
+      },
+      {
+        "name": "Rock Lance",
+        "element": "/images/icons/T_Icon_element_s_07.png",
+        "power": "150",
+        "cooldown": "55",
+        "range": "100 - 9999"
+      }
+    ]
+  },
+  {
+    "name": "Leezpunk",
+    "skills": [
+      {
+        "name": "Poison Blast",
+        "element": "/images/icons/T_Icon_element_s_05.png",
+        "power": "30",
+        "cooldown": "2",
+        "range": "500 - 3000"
+      },
+      {
+        "name": "Dark Ball",
+        "element": "/images/icons/T_Icon_element_s_05.png",
+        "power": "40",
+        "cooldown": "4",
+        "range": "500 - 1000"
+      },
+      {
+        "name": "Shadow Burst",
+        "element": "/images/icons/T_Icon_element_s_05.png",
+        "power": "55",
+        "cooldown": "10",
+        "range": "0 - 300"
+      },
+      {
+        "name": "Spirit Flame",
+        "element": "/images/icons/T_Icon_element_s_05.png",
+        "power": "75",
+        "cooldown": "16",
+        "range": "500 - 5000"
+      },
+      {
+        "name": "Nightmare Ball",
+        "element": "/images/icons/T_Icon_element_s_05.png",
+        "power": "100",
+        "cooldown": "30",
+        "range": "1000 - 9999"
+      },
+      {
+        "name": "Ignis Breath",
+        "element": "/images/icons/T_Icon_element_s_01.png",
+        "power": "70",
+        "cooldown": "15",
+        "range": "500 - 1500"
+      },
+      {
+        "name": "Dark Laser",
+        "element": "/images/icons/T_Icon_element_s_05.png",
+        "power": "150",
+        "cooldown": "55",
+        "range": "500 - 1800"
+      }
+    ]
+  },
+  {
+    "name": "Fuack",
+    "skills": [
+      {
+        "name": "Aqua Gun",
+        "element": "/images/icons/T_Icon_element_s_02.png",
+        "power": "40",
+        "cooldown": "4",
+        "range": "500 - 5000"
+      },
+      {
+        "name": "Power Shot",
+        "element": "/images/icons/T_Icon_element_s_00.png",
+        "power": "35",
+        "cooldown": "4",
+        "range": "600 - 3000"
+      },
+      {
+        "name": "Hydro Jet",
+        "element": "/images/icons/T_Icon_element_s_02.png",
+        "power": "30",
+        "cooldown": "2",
+        "range": "500 - 5000"
+      },
+      {
+        "name": "Ice Missile",
+        "element": "/images/icons/T_Icon_element_s_08.png",
+        "power": "30",
+        "cooldown": "3",
+        "range": "800 - 3000"
+      },
+      {
+        "name": "Bubble Blast",
+        "element": "/images/icons/T_Icon_element_s_02.png",
+        "power": "65",
+        "cooldown": "13",
+        "range": "1000 - 3500"
+      },
+      {
+        "name": "Aqua Burst",
+        "element": "/images/icons/T_Icon_element_s_02.png",
+        "power": "100",
+        "cooldown": "30",
+        "range": "1000 - 9999"
+      },
+      {
+        "name": "Hydro Laser",
+        "element": "/images/icons/T_Icon_element_s_02.png",
+        "power": "150",
+        "cooldown": "55",
+        "range": "500 - 1800"
+      }
+    ]
+  },
+  {
+    "name": "Sparkit",
+    "skills": [
+      {
+        "name": "Spark Blast",
+        "element": "/images/icons/T_Icon_element_s_03.png",
+        "power": "30",
+        "cooldown": "2",
+        "range": "500 - 5000"
+      },
+      {
+        "name": "Sand Blast",
+        "element": "/images/icons/T_Icon_element_s_07.png",
+        "power": "40",
+        "cooldown": "4",
+        "range": "500 - 3000"
+      },
+      {
+        "name": "Shockwave",
+        "element": "/images/icons/T_Icon_element_s_03.png",
+        "power": "40",
+        "cooldown": "4",
+        "range": "0 - 300"
+      },
+      {
+        "name": "Electric Ball",
+        "element": "/images/icons/T_Icon_element_s_03.png",
+        "power": "50",
+        "cooldown": "9",
+        "range": "500 - 2500"
+      },
+      {
+        "name": "Tri-Lightning",
+        "element": "/images/icons/T_Icon_element_s_03.png",
+        "power": "90",
+        "cooldown": "22",
+        "range": "0 - 9999"
+      },
+      {
+        "name": "Lightning Streak",
+        "element": "/images/icons/T_Icon_element_s_03.png",
+        "power": "75",
+        "cooldown": "16",
+        "range": "500 - 2000"
+      },
+      {
+        "name": "Lightning Bolt",
+        "element": "/images/icons/T_Icon_element_s_03.png",
+        "power": "150",
+        "cooldown": "55",
+        "range": "500 - 3000"
+      }
+    ]
+  },
+  {
+    "name": "Kelpsea",
+    "skills": [
+      {
+        "name": "Hydro Jet",
+        "element": "/images/icons/T_Icon_element_s_02.png",
+        "power": "30",
+        "cooldown": "2",
+        "range": "500 - 5000"
+      },
+      {
+        "name": "Dragon Cannon",
+        "element": "/images/icons/T_Icon_element_s_06.png",
+        "power": "30",
+        "cooldown": "2",
+        "range": "500 - 4000"
+      },
+      {
+        "name": "Aqua Gun",
+        "element": "/images/icons/T_Icon_element_s_02.png",
+        "power": "40",
+        "cooldown": "4",
+        "range": "500 - 5000"
+      },
+      {
+        "name": "Bubble Blast",
+        "element": "/images/icons/T_Icon_element_s_02.png",
+        "power": "65",
+        "cooldown": "13",
+        "range": "1000 - 3500"
+      },
+      {
+        "name": "Power Bomb",
+        "element": "/images/icons/T_Icon_element_s_00.png",
+        "power": "70",
+        "cooldown": "15",
+        "range": "1000 - 9999"
+      },
+      {
+        "name": "Aqua Burst",
+        "element": "/images/icons/T_Icon_element_s_02.png",
+        "power": "100",
+        "cooldown": "30",
+        "range": "1000 - 9999"
+      },
+      {
+        "name": "Hydro Laser",
+        "element": "/images/icons/T_Icon_element_s_02.png",
+        "power": "150",
+        "cooldown": "55",
+        "range": "500 - 1800"
+      }
+    ]
+  },
+  {
+    "name": "Killamari",
+    "skills": [
+      {
+        "name": "Hydro Jet",
+        "element": "/images/icons/T_Icon_element_s_02.png",
+        "power": "30",
+        "cooldown": "2",
+        "range": "500 - 5000"
+      },
+      {
+        "name": "Poison Blast",
+        "element": "/images/icons/T_Icon_element_s_05.png",
+        "power": "30",
+        "cooldown": "2",
+        "range": "500 - 3000"
+      },
+      {
+        "name": "Dark Ball",
+        "element": "/images/icons/T_Icon_element_s_05.png",
+        "power": "40",
+        "cooldown": "4",
+        "range": "500 - 1000"
+      },
+      {
+        "name": "Shadow Burst",
+        "element": "/images/icons/T_Icon_element_s_05.png",
+        "power": "55",
+        "cooldown": "10",
+        "range": "0 - 300"
+      },
+      {
+        "name": "Acid Rain",
+        "element": "/images/icons/T_Icon_element_s_02.png",
+        "power": "80",
+        "cooldown": "18",
+        "range": "100 - 1000"
+      },
+      {
+        "name": "Nightmare Ball",
+        "element": "/images/icons/T_Icon_element_s_05.png",
+        "power": "100",
+        "cooldown": "30",
+        "range": "1000 - 9999"
+      },
+      {
+        "name": "Dark Laser",
+        "element": "/images/icons/T_Icon_element_s_05.png",
+        "power": "150",
+        "cooldown": "55",
+        "range": "500 - 1800"
+      }
+    ]
+  },
+  {
+    "name": "Flopie",
+    "skills": [
+      {
+        "name": "Wind Cutter",
+        "element": "/images/icons/T_Icon_element_s_04.png",
+        "power": "30",
+        "cooldown": "2",
+        "range": "500 - 5000"
+      },
+      {
+        "name": "Air Cannon",
+        "element": "/images/icons/T_Icon_element_s_00.png",
+        "power": "25",
+        "cooldown": "2",
+        "range": "500 - 4000"
+      },
+      {
+        "name": "Hydro Jet",
+        "element": "/images/icons/T_Icon_element_s_02.png",
+        "power": "30",
+        "cooldown": "2",
+        "range": "500 - 5000"
+      },
+      {
+        "name": "Seed Machine Gun",
+        "element": "/images/icons/T_Icon_element_s_04.png",
+        "power": "50",
+        "cooldown": "9",
+        "range": "0 - 300"
+      },
+      {
+        "name": "Bubble Blast",
+        "element": "/images/icons/T_Icon_element_s_02.png",
+        "power": "65",
+        "cooldown": "13",
+        "range": "1000 - 3500"
+      },
+      {
+        "name": "Grass Tornado",
+        "element": "/images/icons/T_Icon_element_s_04.png",
+        "power": "80",
+        "cooldown": "18",
+        "range": "700 - 3000"
+      },
+      {
+        "name": "Solar Blast",
+        "element": "/images/icons/T_Icon_element_s_04.png",
+        "power": "150",
+        "cooldown": "55",
+        "range": "500 - 1800"
+      }
+    ]
+  },
+  {
+    "name": "TanZee",
+    "skills": [
+      {
+        "name": "Wind Cutter",
+        "element": "/images/icons/T_Icon_element_s_04.png",
+        "power": "30",
+        "cooldown": "2",
+        "range": "500 - 5000"
+      },
+      {
+        "name": "Sand Blast",
+        "element": "/images/icons/T_Icon_element_s_07.png",
+        "power": "40",
+        "cooldown": "4",
+        "range": "500 - 3000"
+      },
+      {
+        "name": "Seed Machine Gun",
+        "element": "/images/icons/T_Icon_element_s_04.png",
+        "power": "50",
+        "cooldown": "9",
+        "range": "0 - 300"
+      },
+      {
+        "name": "Seed Mine",
+        "element": "/images/icons/T_Icon_element_s_04.png",
+        "power": "65",
+        "cooldown": "13",
+        "range": "800 - 9999"
+      },
+      {
+        "name": "Stone Cannon",
+        "element": "/images/icons/T_Icon_element_s_07.png",
+        "power": "70",
+        "cooldown": "15",
+        "range": "500 - 2500"
+      },
+      {
+        "name": "Grass Tornado",
+        "element": "/images/icons/T_Icon_element_s_04.png",
+        "power": "80",
+        "cooldown": "18",
+        "range": "700 - 3000"
+      },
+      {
+        "name": "Solar Blast",
+        "element": "/images/icons/T_Icon_element_s_04.png",
+        "power": "150",
+        "cooldown": "55",
+        "range": "500 - 1800"
+      }
+    ]
+  },
+  {
+    "name": "Ribbuny",
+    "skills": [
+      {
+        "name": "Air Cannon",
+        "element": "/images/icons/T_Icon_element_s_00.png",
+        "power": "25",
+        "cooldown": "2",
+        "range": "500 - 4000"
+      },
+      {
+        "name": "Power Shot",
+        "element": "/images/icons/T_Icon_element_s_00.png",
+        "power": "35",
+        "cooldown": "4",
+        "range": "600 - 3000"
+      },
+      {
+        "name": "Ice Missile",
+        "element": "/images/icons/T_Icon_element_s_08.png",
+        "power": "30",
+        "cooldown": "3",
+        "range": "800 - 3000"
+      },
+      {
+        "name": "Blizzard Spike",
+        "element": "/images/icons/T_Icon_element_s_08.png",
+        "power": "130",
+        "cooldown": "45",
+        "range": "1000 - 9999"
+      },
+      {
+        "name": "Power Bomb",
+        "element": "/images/icons/T_Icon_element_s_00.png",
+        "power": "70",
+        "cooldown": "15",
+        "range": "1000 - 9999"
+      },
+      {
+        "name": "Iceberg",
+        "element": "/images/icons/T_Icon_element_s_08.png",
+        "power": "70",
+        "cooldown": "15",
+        "range": "100 - 9999"
+      },
+      {
+        "name": "Pal Blast",
+        "element": "/images/icons/T_Icon_element_s_00.png",
+        "power": "150",
+        "cooldown": "55",
+        "range": "500 - 1800"
+      }
+    ]
+  },
+  {
+    "name": "Flambelle",
+    "skills": [
+      {
+        "name": "Ignis Blast",
+        "element": "/images/icons/T_Icon_element_s_01.png",
+        "power": "30",
+        "cooldown": "2",
+        "range": "500 - 5000"
+      },
+      {
+        "name": "Spirit Fire",
+        "element": "/images/icons/T_Icon_element_s_01.png",
+        "power": "45",
+        "cooldown": "7",
+        "range": "1000 - 3000"
+      },
+      {
+        "name": "Flare Arrow",
+        "element": "/images/icons/T_Icon_element_s_01.png",
+        "power": "55",
+        "cooldown": "10",
+        "range": "500 - 5000"
+      },
+      {
+        "name": "Spirit Flame",
+        "element": "/images/icons/T_Icon_element_s_05.png",
+        "power": "75",
+        "cooldown": "16",
+        "range": "500 - 5000"
+      },
+      {
+        "name": "Flare Storm",
+        "element": "/images/icons/T_Icon_element_s_01.png",
+        "power": "80",
+        "cooldown": "18",
+        "range": "700 - 3000"
+      },
+      {
+        "name": "Ignis Rage",
+        "element": "/images/icons/T_Icon_element_s_01.png",
+        "power": "120",
+        "cooldown": "40",
+        "range": "100 - 1000"
+      },
+      {
+        "name": "Fire Ball",
+        "element": "/images/icons/T_Icon_element_s_01.png",
+        "power": "150",
+        "cooldown": "55",
+        "range": "500 - 9999"
+      }
+    ]
+  },
+  {
+    "name": "Daedream",
+    "skills": [
+      {
+        "name": "Dark Ball",
+        "element": "/images/icons/T_Icon_element_s_05.png",
+        "power": "40",
+        "cooldown": "4",
+        "range": "500 - 1000"
+      },
+      {
+        "name": "Poison Blast",
+        "element": "/images/icons/T_Icon_element_s_05.png",
+        "power": "30",
+        "cooldown": "2",
+        "range": "500 - 3000"
+      },
+      {
+        "name": "Shadow Burst",
+        "element": "/images/icons/T_Icon_element_s_05.png",
+        "power": "55",
+        "cooldown": "10",
+        "range": "0 - 300"
+      },
+      {
+        "name": "Cryst Breath",
+        "element": "/images/icons/T_Icon_element_s_08.png",
+        "power": "90",
+        "cooldown": "22",
+        "range": "100 - 1000"
+      },
+      {
+        "name": "Spirit Flame",
+        "element": "/images/icons/T_Icon_element_s_05.png",
+        "power": "75",
+        "cooldown": "16",
+        "range": "500 - 5000"
+      },
+      {
+        "name": "Nightmare Ball",
+        "element": "/images/icons/T_Icon_element_s_05.png",
+        "power": "100",
+        "cooldown": "30",
+        "range": "1000 - 9999"
+      },
+      {
+        "name": "Dark Laser",
+        "element": "/images/icons/T_Icon_element_s_05.png",
+        "power": "150",
+        "cooldown": "55",
+        "range": "500 - 1800"
+      }
+    ]
+  },
+  {
+    "name": "Depresso",
+    "skills": [
+      {
+        "name": "Poison Blast",
+        "element": "/images/icons/T_Icon_element_s_05.png",
+        "power": "30",
+        "cooldown": "2",
+        "range": "500 - 3000"
+      },
+      {
+        "name": "Sand Blast",
+        "element": "/images/icons/T_Icon_element_s_07.png",
+        "power": "40",
+        "cooldown": "4",
+        "range": "500 - 3000"
+      },
+      {
+        "name": "Dark Ball",
+        "element": "/images/icons/T_Icon_element_s_05.png",
+        "power": "40",
+        "cooldown": "4",
+        "range": "500 - 1000"
+      },
+      {
+        "name": "Ice Missile",
+        "element": "/images/icons/T_Icon_element_s_08.png",
+        "power": "30",
+        "cooldown": "3",
+        "range": "800 - 3000"
+      },
+      {
+        "name": "Shadow Burst",
+        "element": "/images/icons/T_Icon_element_s_05.png",
+        "power": "55",
+        "cooldown": "10",
+        "range": "0 - 300"
+      },
+      {
+        "name": "Nightmare Ball",
+        "element": "/images/icons/T_Icon_element_s_05.png",
+        "power": "100",
+        "cooldown": "30",
+        "range": "1000 - 9999"
+      },
+      {
+        "name": "Dark Laser",
+        "element": "/images/icons/T_Icon_element_s_05.png",
+        "power": "150",
+        "cooldown": "55",
+        "range": "500 - 1800"
+      }
+    ]
+  },
+  {
+    "name": "Teafant",
+    "skills": [
+      {
+        "name": "Aqua Gun",
+        "element": "/images/icons/T_Icon_element_s_02.png",
+        "power": "40",
+        "cooldown": "4",
+        "range": "500 - 5000"
+      },
+      {
+        "name": "Hydro Jet",
+        "element": "/images/icons/T_Icon_element_s_02.png",
+        "power": "30",
+        "cooldown": "2",
+        "range": "500 - 5000"
+      },
+      {
+        "name": "Sand Blast",
+        "element": "/images/icons/T_Icon_element_s_07.png",
+        "power": "40",
+        "cooldown": "4",
+        "range": "500 - 3000"
+      },
+      {
+        "name": "Bubble Blast",
+        "element": "/images/icons/T_Icon_element_s_02.png",
+        "power": "65",
+        "cooldown": "13",
+        "range": "1000 - 3500"
+      },
+      {
+        "name": "Acid Rain",
+        "element": "/images/icons/T_Icon_element_s_02.png",
+        "power": "80",
+        "cooldown": "18",
+        "range": "100 - 1000"
+      },
+      {
+        "name": "Aqua Burst",
+        "element": "/images/icons/T_Icon_element_s_02.png",
+        "power": "100",
+        "cooldown": "30",
+        "range": "1000 - 9999"
+      },
+      {
+        "name": "Hydro Laser",
+        "element": "/images/icons/T_Icon_element_s_02.png",
+        "power": "150",
+        "cooldown": "55",
+        "range": "500 - 1800"
+      }
+    ]
+  },
+  {
+    "name": "Direhowl",
+    "skills": [
+      {
+        "name": "Fierce Fang",
+        "element": "/images/icons/T_Icon_element_s_00.png",
+        "power": "45",
+        "cooldown": "2",
+        "range": "800 - 900"
+      },
+      {
+        "name": "Sand Blast",
+        "element": "/images/icons/T_Icon_element_s_07.png",
+        "power": "40",
+        "cooldown": "4",
+        "range": "500 - 3000"
+      },
+      {
+        "name": "Air Cannon",
+        "element": "/images/icons/T_Icon_element_s_00.png",
+        "power": "25",
+        "cooldown": "2",
+        "range": "500 - 4000"
+      },
+      {
+        "name": "Power Shot",
+        "element": "/images/icons/T_Icon_element_s_00.png",
+        "power": "35",
+        "cooldown": "4",
+        "range": "600 - 3000"
+      },
+      {
+        "name": "Ignis Blast",
+        "element": "/images/icons/T_Icon_element_s_01.png",
+        "power": "30",
+        "cooldown": "2",
+        "range": "500 - 5000"
+      },
+      {
+        "name": "Power Bomb",
+        "element": "/images/icons/T_Icon_element_s_00.png",
+        "power": "70",
+        "cooldown": "15",
+        "range": "1000 - 9999"
+      },
+      {
+        "name": "Pal Blast",
+        "element": "/images/icons/T_Icon_element_s_00.png",
+        "power": "150",
+        "cooldown": "55",
+        "range": "500 - 1800"
+      }
+    ]
+  },
+  {
+    "name": "Bushi",
+    "skills": [
+      {
+        "name": "Ignis Blast",
+        "element": "/images/icons/T_Icon_element_s_01.png",
+        "power": "30",
+        "cooldown": "2",
+        "range": "500 - 5000"
+      },
+      {
+        "name": "Wind Cutter",
+        "element": "/images/icons/T_Icon_element_s_04.png",
+        "power": "30",
+        "cooldown": "2",
+        "range": "500 - 5000"
+      },
+      {
+        "name": "Icicle Cutter",
+        "element": "/images/icons/T_Icon_element_s_08.png",
+        "power": "55",
+        "cooldown": "10",
+        "range": "500 - 4000"
+      },
+      {
+        "name": "Iaigiri",
+        "element": "/images/icons/T_Icon_element_s_01.png",
+        "power": "65",
+        "cooldown": "9",
+        "range": "1000 - 9999"
+      },
+      {
+        "name": "Ignis Breath",
+        "element": "/images/icons/T_Icon_element_s_01.png",
+        "power": "70",
+        "cooldown": "15",
+        "range": "500 - 1500"
+      },
+      {
+        "name": "Lightning Strike",
+        "element": "/images/icons/T_Icon_element_s_03.png",
+        "power": "120",
+        "cooldown": "40",
+        "range": "0 - 500"
+      },
+      {
+        "name": "Ignis Rage",
+        "element": "/images/icons/T_Icon_element_s_01.png",
+        "power": "120",
+        "cooldown": "40",
+        "range": "100 - 1000"
+      }
+    ]
+  },
+  {
+    "name": "Grintale",
+    "skills": [
+      {
+        "name": "Sand Blast",
+        "element": "/images/icons/T_Icon_element_s_07.png",
+        "power": "40",
+        "cooldown": "4",
+        "range": "500 - 3000"
+      },
+      {
+        "name": "Power Shot",
+        "element": "/images/icons/T_Icon_element_s_00.png",
+        "power": "35",
+        "cooldown": "4",
+        "range": "600 - 3000"
+      },
+      {
+        "name": "Cat Press",
+        "element": "/images/icons/T_Icon_element_s_00.png",
+        "power": "60",
+        "cooldown": "9",
+        "range": "0 - 1500"
+      },
+      {
+        "name": "Stone Blast",
+        "element": "/images/icons/T_Icon_element_s_07.png",
+        "power": "55",
+        "cooldown": "10",
+        "range": "500 - 4000"
+      },
+      {
+        "name": "Stone Cannon",
+        "element": "/images/icons/T_Icon_element_s_07.png",
+        "power": "70",
+        "cooldown": "15",
+        "range": "500 - 2500"
+      },
+      {
+        "name": "Power Bomb",
+        "element": "/images/icons/T_Icon_element_s_00.png",
+        "power": "70",
+        "cooldown": "15",
+        "range": "1000 - 9999"
+      },
+      {
+        "name": "Pal Blast",
+        "element": "/images/icons/T_Icon_element_s_00.png",
+        "power": "150",
+        "cooldown": "55",
+        "range": "500 - 1800"
+      }
+    ]
+  },
+  {
+    "name": "Rayhound",
+    "skills": [
+      {
+        "name": "Sand Blast",
+        "element": "/images/icons/T_Icon_element_s_07.png",
+        "power": "40",
+        "cooldown": "4",
+        "range": "500 - 3000"
+      },
+      {
+        "name": "Shockwave",
+        "element": "/images/icons/T_Icon_element_s_03.png",
+        "power": "40",
+        "cooldown": "4",
+        "range": "0 - 300"
+      },
+      {
+        "name": "Spark Blast",
+        "element": "/images/icons/T_Icon_element_s_03.png",
+        "power": "30",
+        "cooldown": "2",
+        "range": "500 - 5000"
+      },
+      {
+        "name": "Stone Blast",
+        "element": "/images/icons/T_Icon_element_s_07.png",
+        "power": "55",
+        "cooldown": "10",
+        "range": "500 - 4000"
+      },
+      {
+        "name": "Electric Ball",
+        "element": "/images/icons/T_Icon_element_s_03.png",
+        "power": "50",
+        "cooldown": "9",
+        "range": "500 - 2500"
+      },
+      {
+        "name": "Lightning Streak",
+        "element": "/images/icons/T_Icon_element_s_03.png",
+        "power": "75",
+        "cooldown": "16",
+        "range": "500 - 2000"
+      },
+      {
+        "name": "Lightning Bolt",
+        "element": "/images/icons/T_Icon_element_s_03.png",
+        "power": "150",
+        "cooldown": "55",
+        "range": "500 - 3000"
+      }
+    ]
+  },
+  {
+    "name": "Wumpo Botan",
+    "skills": [
+      {
+        "name": "Wind Cutter",
+        "element": "/images/icons/T_Icon_element_s_04.png",
+        "power": "30",
+        "cooldown": "2",
+        "range": "500 - 5000"
+      },
+      {
+        "name": "Aqua Gun",
+        "element": "/images/icons/T_Icon_element_s_02.png",
+        "power": "40",
+        "cooldown": "4",
+        "range": "500 - 5000"
+      },
+      {
+        "name": "Seed Mine",
+        "element": "/images/icons/T_Icon_element_s_04.png",
+        "power": "65",
+        "cooldown": "13",
+        "range": "800 - 9999"
+      },
+      {
+        "name": "Grass Tornado",
+        "element": "/images/icons/T_Icon_element_s_04.png",
+        "power": "80",
+        "cooldown": "18",
+        "range": "700 - 3000"
+      },
+      {
+        "name": "Spine Vine",
+        "element": "/images/icons/T_Icon_element_s_04.png",
+        "power": "95",
+        "cooldown": "25",
+        "range": "500 - 9999"
+      },
+      {
+        "name": "Aqua Burst",
+        "element": "/images/icons/T_Icon_element_s_02.png",
+        "power": "100",
+        "cooldown": "30",
+        "range": "1000 - 9999"
+      },
+      {
+        "name": "Solar Blast",
+        "element": "/images/icons/T_Icon_element_s_04.png",
+        "power": "150",
+        "cooldown": "55",
+        "range": "500 - 1800"
+      }
+    ]
+  },
+  {
+    "name": "Tombat",
+    "skills": [
+      {
+        "name": "Air Cannon",
+        "element": "/images/icons/T_Icon_element_s_00.png",
+        "power": "25",
+        "cooldown": "2",
+        "range": "500 - 4000"
+      },
+      {
+        "name": "Poison Blast",
+        "element": "/images/icons/T_Icon_element_s_05.png",
+        "power": "30",
+        "cooldown": "2",
+        "range": "500 - 3000"
+      },
+      {
+        "name": "Dark Ball",
+        "element": "/images/icons/T_Icon_element_s_05.png",
+        "power": "40",
+        "cooldown": "4",
+        "range": "500 - 1000"
+      },
+      {
+        "name": "Shadow Burst",
+        "element": "/images/icons/T_Icon_element_s_05.png",
+        "power": "55",
+        "cooldown": "10",
+        "range": "0 - 300"
+      },
+      {
+        "name": "Spirit Flame",
+        "element": "/images/icons/T_Icon_element_s_05.png",
+        "power": "75",
+        "cooldown": "16",
+        "range": "500 - 5000"
+      },
+      {
+        "name": "Nightmare Ball",
+        "element": "/images/icons/T_Icon_element_s_05.png",
+        "power": "100",
+        "cooldown": "30",
+        "range": "1000 - 9999"
+      },
+      {
+        "name": "Dark Laser",
+        "element": "/images/icons/T_Icon_element_s_05.png",
+        "power": "150",
+        "cooldown": "55",
+        "range": "500 - 1800"
+      }
+    ]
+  },
+  {
+    "name": "Dinossom",
+    "skills": [
+      {
+        "name": "Wind Cutter",
+        "element": "/images/icons/T_Icon_element_s_04.png",
+        "power": "30",
+        "cooldown": "2",
+        "range": "500 - 5000"
+      },
+      {
+        "name": "Botanical Smash",
+        "element": "/images/icons/T_Icon_element_s_04.png",
+        "power": "60",
+        "cooldown": "8",
+        "range": "0 - 1500"
+      },
+      {
+        "name": "Dragon Burst",
+        "element": "/images/icons/T_Icon_element_s_06.png",
+        "power": "55",
+        "cooldown": "10",
+        "range": "0 - 200"
+      },
+      {
+        "name": "Seed Mine",
+        "element": "/images/icons/T_Icon_element_s_04.png",
+        "power": "65",
+        "cooldown": "13",
+        "range": "800 - 9999"
+      },
+      {
+        "name": "Draconic Breath",
+        "element": "/images/icons/T_Icon_element_s_06.png",
+        "power": "70",
+        "cooldown": "15",
+        "range": "500 - 1500"
+      },
+      {
+        "name": "Spine Vine",
+        "element": "/images/icons/T_Icon_element_s_04.png",
+        "power": "95",
+        "cooldown": "25",
+        "range": "500 - 9999"
+      },
+      {
+        "name": "Solar Blast",
+        "element": "/images/icons/T_Icon_element_s_04.png",
+        "power": "150",
+        "cooldown": "55",
+        "range": "500 - 1800"
+      }
+    ]
+  },
+  {
+    "name": "Felbat",
+    "skills": [
+      {
+        "name": "Poison Blast",
+        "element": "/images/icons/T_Icon_element_s_05.png",
+        "power": "30",
+        "cooldown": "2",
+        "range": "500 - 3000"
+      },
+      {
+        "name": "Dark Ball",
+        "element": "/images/icons/T_Icon_element_s_05.png",
+        "power": "40",
+        "cooldown": "4",
+        "range": "500 - 1000"
+      },
+      {
+        "name": "Shadow Burst",
+        "element": "/images/icons/T_Icon_element_s_05.png",
+        "power": "55",
+        "cooldown": "10",
+        "range": "0 - 300"
+      },
+      {
+        "name": "Spirit Flame",
+        "element": "/images/icons/T_Icon_element_s_05.png",
+        "power": "75",
+        "cooldown": "16",
+        "range": "500 - 5000"
+      },
+      {
+        "name": "Nightmare Ball",
+        "element": "/images/icons/T_Icon_element_s_05.png",
+        "power": "100",
+        "cooldown": "30",
+        "range": "1000 - 9999"
+      },
+      {
+        "name": "Ignis Rage",
+        "element": "/images/icons/T_Icon_element_s_01.png",
+        "power": "120",
+        "cooldown": "40",
+        "range": "100 - 1000"
+      },
+      {
+        "name": "Dark Laser",
+        "element": "/images/icons/T_Icon_element_s_05.png",
+        "power": "150",
+        "cooldown": "55",
+        "range": "500 - 1800"
+      }
+    ]
+  },
+  {
+    "name": "Cinnamoth",
+    "skills": [
+      {
+        "name": "Air Cannon",
+        "element": "/images/icons/T_Icon_element_s_00.png",
+        "power": "25",
+        "cooldown": "2",
+        "range": "500 - 4000"
+      },
+      {
+        "name": "Wind Cutter",
+        "element": "/images/icons/T_Icon_element_s_04.png",
+        "power": "30",
+        "cooldown": "2",
+        "range": "500 - 5000"
+      },
+      {
+        "name": "Poison Fog",
+        "element": "/images/icons/T_Icon_element_s_05.png",
+        "power": "0",
+        "cooldown": "30",
+        "range": "0 - 200"
+      },
+      {
+        "name": "Sand Tornado",
+        "element": "/images/icons/T_Icon_element_s_07.png",
+        "power": "80",
+        "cooldown": "18",
+        "range": "100 - 3000"
+      },
+      {
+        "name": "Seed Mine",
+        "element": "/images/icons/T_Icon_element_s_04.png",
+        "power": "65",
+        "cooldown": "13",
+        "range": "800 - 9999"
+      },
+      {
+        "name": "Grass Tornado",
+        "element": "/images/icons/T_Icon_element_s_04.png",
+        "power": "80",
+        "cooldown": "18",
+        "range": "700 - 3000"
+      },
+      {
+        "name": "Solar Blast",
+        "element": "/images/icons/T_Icon_element_s_04.png",
+        "power": "150",
+        "cooldown": "55",
+        "range": "500 - 1800"
+      }
+    ]
+  }
+]

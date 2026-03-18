@@ -29,10 +29,10 @@ class IV:
     def convert_to_percentage(self):
         max_iv = 100
         max_percentage = 30.0
-        self.iv_hp = (self.iv_hp / max_iv) * max_percentage
-        self.iv_defense = (self.iv_defense / max_iv) * max_percentage
-        self.iv_att = (self.iv_att / max_iv) * max_percentage
-        return IV(self.iv_hp , self.iv_att , self.iv_defense)
+        iv_hp = (self.iv_hp / max_iv) * max_percentage
+        iv_defense = (self.iv_defense / max_iv) * max_percentage
+        iv_att = (self.iv_att / max_iv) * max_percentage
+        return IV(iv_hp, iv_defense, iv_att)
         
 
 class EV:
@@ -84,10 +84,10 @@ class Stat():
         Defense_SoulBonus = self.ev.ev_defense / 100  # Each EV value gives 3%
         CondenserBonus = self.stars * 0.05  # Each star gives 5%
         
-        defense = (100 + self.pal.base_defense * 0.075 * self.lvl * (1 + Defense_IV)) * (1 + Defense_Bonus) * (1 + Defense_SoulBonus) * (1 + CondenserBonus)
+        defense = (50 + self.pal.base_defense * 0.075 * self.lvl * (1 + Defense_IV)) * (1 + Defense_Bonus) * (1 + Defense_SoulBonus) * (1 + CondenserBonus)
         return round(defense)
 
-def calculate_palworld_damage(pal_level,move_power,pal_attack,target_defense,stab=bool):
+def calculate_palworld_damage(pal_level,move_power,pal_attack,target_defense,stab=False):
 
     damage = 1.1 * ((1.5 * pal_level + 20) * move_power * pal_attack / target_defense) / 15
         
@@ -105,22 +105,20 @@ def calculate_palworld_damage(pal_level,move_power,pal_attack,target_defense,sta
         
 
 
-# Example usage
-pal_name = "Frostallion"  # Replace with the actual name of the Pal in the database
-pal = Pal.from_name(pal_name)
+if __name__ == "__main__":
+    # Example usage
+    pal_name = "Frostallion"  # Replace with the actual name of the Pal in the database
+    pal = Pal.from_name(pal_name)
 
+    iv = IV(40, 15, 20)
+    print(iv.convert_to_percentage())
+    ev = EV(5, 5, 5)
+    bonus = Bonus(0, 0, 0)
+    lvl = 10
+    stars = 3
 
-iv = IV(40, 15, 20)
-print(iv.convert_to_percentage())
-ev = EV(5, 5, 5)
-bonus = Bonus(0,0,0)
-lvl=10
-stars=3
+    stats = Stat(pal, iv, ev, lvl, stars, bonus)
 
-
-stats = Stat(pal, iv, ev, lvl, stars, bonus)
-
- 
-print(f"HP: {stats.calculate_hp()}")
-print(f"Defense: {stats.calculate_defense()}")
-print(f"Attack: {stats.calculate_att()}")
+    print(f"HP: {stats.calculate_hp()}")
+    print(f"Defense: {stats.calculate_defense()}")
+    print(f"Attack: {stats.calculate_att()}")

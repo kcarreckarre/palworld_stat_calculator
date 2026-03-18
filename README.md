@@ -1,48 +1,97 @@
+# Palworld Damage Calculator
 
-# Project Documentation
+A web-based stat and damage calculator for Palworld. Select two Pals, configure their Level, Stars, IVs, EVs, and Passive Skill bonuses, then instantly see calculated HP / DEF / ATT and the full damage range of any move.
 
-## Overview
+## Features
 
-This project includes several scripts for various purposes such as data scraping, statistical calculations, and application output processing.
+- **Live stat calculation** — updates as you type, no button needed
+- **Pal image + autocomplete search** with keyboard navigation
+- **All modifiers** — Level (1–60), Stars (0–4), IV (0–100), EV% (0–30), Passive Skill Bonus%
+- **Damage calculator** — Move Power, STAB, Type Effectiveness (0× / 0.5× / 1× / 1.5×)
+- **Hits to KO** — how many hits the attacker needs to knock out the defender
+- **Dark Palworld-themed UI** — runs in any browser, no install needed for end users
 
-### Scripts
+## Project Structure
 
-1. **scrape_pals.js**: This script uses Puppeteer to scrape data from the PalWorld website for a list of pals and save the data into a JSON file.
-2. **store_pal_database.py**: This script handles the storage of pal data into a database using SQLite and downloads images using `requests`.
-3. **stat_calcul.py**: This script performs various statistical calculations using `numpy` and SQLite.
-4. **appli_output.py**: This script processes the output of the application using `tkinter`, `ttkbootstrap`, and SQLite.
+```
+├── main.py               # FastAPI backend — API endpoints for stats & damage
+├── run.py                # One-command launcher
+├── stat_calcul.py        # Core stat formulas (HP, DEF, ATT, damage)
+├── store_pal_database.py # Populates pals.db from scraped JSON
+├── scrape_pals.js        # Puppeteer scraper — pal base stats & elements
+├── scrape_skill.js       # Puppeteer scraper — pal active skills
+├── templates/
+│   └── index.html        # Single-page UI
+├── static/
+│   ├── style.css         # Dark theme
+│   └── app.js            # Frontend logic (autocomplete, API calls)
+├── images/               # Local pal images (downloaded by store_pal_database.py)
+├── pals.db               # SQLite database used by the app
+└── requirements.txt      # Python dependencies
+```
 
-## Requirements
+## Quick Start
 
-The project requires the following packages:
-- puppeteer==13.0.0
-- fs==0.0.1-security
-- requests
-- numpy
-- ttkbootstrap
+### 1. Install Python dependencies
 
-## Usage
+```bash
+pip install -r requirements.txt
+```
 
-### scrape_pals.js
-To run the scraper script:
+> If pip fails due to file locks (Windows), install to a local folder:
+> ```bash
+> pip install --target .deps fastapi uvicorn jinja2
+> ```
+> `run.py` handles this automatically.
+
+### 2. Launch the web app
+
+```bash
+python run.py
+```
+
+Open **http://127.0.0.1:8000** in your browser.
+
+## Data Pipeline (optional — pals.db is already included)
+
+If you want to re-scrape the data from scratch:
+
+### Step 1 — Scrape pal stats
 ```bash
 node scrape_pals.js
 ```
+Produces `pals_data.json`.
 
-### store_pal_database.py
-To store the pal data into a database:
+### Step 2 — Scrape pal skills
+```bash
+node scrape_skill.js
+```
+Produces `pals_skill_details.json`.
+
+### Step 3 — Build the database
 ```bash
 python store_pal_database.py
 ```
+Downloads pal images to `images/` and populates `pals.db`.
 
-### stat_calcul.py
-To perform statistical calculations:
-```bash
-python stat_calcul.py
+## Stat Formulas
+
+Based on community research ([u/blahable](https://www.reddit.com/u/blahable)):
+
+```
+HP  = (500 + 5×Lvl + BaseHP  × 0.5   × Lvl × (1 + HP_IV%))  × (1 + PSBonus%) × (1 + EV%) × (1 + Stars×5%)
+DEF = ( 50 + BaseDEF × 0.075 × Lvl × (1 + DEF_IV%)) × (1 + PSBonus%) × (1 + EV%) × (1 + Stars×5%)
+ATT = (100 + BaseATT × 0.075 × Lvl × (1 + ATT_IV%)) × (1 + PSBonus%) × (1 + EV%) × (1 + Stars×5%)
+
+IV% = TalentInt × 0.3 / 100   (TalentInt: 0–100, IV%: 0–30%)
+
+Damage = 1.1 × ((1.5×Lvl + 20) × MovePower × ATT / DEF) / 15
+       × (1.2 if STAB) × TypeEffectiveness × RNG(0.9–1.1)
 ```
 
-### appli_output.py
-To process application output:
-```bash
-python appli_output.py
-```
+## Requirements
+
+- Python 3.8+
+- Node.js (only for scraping)
+- `fastapi`, `uvicorn`, `jinja2` (Python)
+- `puppeteer` (Node — scraping only)

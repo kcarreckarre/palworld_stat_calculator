@@ -30,17 +30,31 @@ const pals_list = [
                 const hpElem = document.querySelector("#__nuxt > div > section > div.container > div.left > div.stats > div > div:nth-child(1) > div.value");
                 const defenseElem = document.querySelector("#__nuxt > div > section > div.container > div.left > div.stats > div > div:nth-child(2) > div.value");
                 const attackElem = document.querySelector("#__nuxt > div > section > div.container > div.left > div.stats > div > div:nth-child(5) > div.value");
+                const elementsElem = document.querySelector("#__nuxt > div > section > div.pal > div.below > div.elements");
 
                 const img_src = imgElem ? imgElem.src : null;
                 const hp = hpElem ? hpElem.textContent.trim() : null;
                 const defense = defenseElem ? defenseElem.textContent.trim() : null;
                 const attack = attackElem ? attackElem.textContent.trim() : null;
 
+                const elements = [];
+                if (elementsElem) {
+                    const elementNodes = elementsElem.querySelectorAll('div.element'); // Adjust the selector as needed
+                    elementNodes.forEach(node => {
+                        const elementImg = node.querySelector('img');
+                        elements.push({
+                            type: node.textContent.trim(),
+                            img_src: elementImg ? elementImg.src : null
+                        });
+                    });
+                }
+
                 return {
                     img_src,
                     hp,
                     defense,
-                    attack
+                    attack,
+                    elements
                 };
             });
 
@@ -56,5 +70,8 @@ const pals_list = [
     fs.writeFileSync('pals_data.json', JSON.stringify(data, null, 2));
     console.log('Data saved to pals_data.json');
 })();
+
+
+
 
 

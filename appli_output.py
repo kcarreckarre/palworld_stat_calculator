@@ -75,16 +75,30 @@ def update_damage_range():
         move_power = float(move_power_var.get())
         left_attack = float(att_var_left.get())
         right_defense = float(def_var_right.get())
+        right_hp = float(hp_var_right.get())
         left_level = float(lvl_var_left.get())
+        effectiveness = float(effectiveness_var.get().split()[0])
 
-        min_damage = calculate_palworld_damage(left_level, move_power, left_attack, right_defense, stab_var.get())["min_damage"]
-        max_damage = calculate_palworld_damage(left_level, move_power, left_attack, right_defense, stab_var.get())["max_damage"]  # You can add variability if needed
+        result = calculate_palworld_damage(left_level, move_power, left_attack, right_defense, stab_var.get())
+        min_damage = result["min_damage"] * effectiveness
+        max_damage = result["max_damage"] * effectiveness
 
         min_damage_var.set(f"{min_damage:.2f}")
         max_damage_var.set(f"{max_damage:.2f}")
-    except ValueError:
+
+        if max_damage > 0 and right_hp > 0:
+            hits_min = max(1, -(-right_hp // max_damage))  # ceil with max damage = fewest hits
+            hits_max = max(1, -(-right_hp // min_damage)) if min_damage > 0 else float('inf')
+            if hits_min == hits_max:
+                hits_to_ko_var.set(f"{int(hits_min)}")
+            else:
+                hits_to_ko_var.set(f"{int(hits_min)}-{int(hits_max)}")
+        else:
+            hits_to_ko_var.set("N/A")
+    except (ValueError, ZeroDivisionError):
         min_damage_var.set("N/A")
         max_damage_var.set("N/A")
+        hits_to_ko_var.set("N/A")
 
 app = tk.Tk()
 app.title("Damage Calculator")
@@ -156,6 +170,7 @@ ttk.Label(left_frame, text="Lvl").grid(row=4, column=0)
 lvl_menu_left = ttk.Combobox(left_frame, textvariable=lvl_var_left, values=[str(i) for i in range(101)], state='normal')
 lvl_menu_left.grid(row=5, column=0)
 lvl_menu_left.bind("<<ComboboxSelected>>", lambda _: update_stats("left"))
+lvl_menu_left.bind("<KeyRelease>", lambda _: update_stats("left"))
 
 ttk.Label(left_frame, text="HP").grid(row=6, column=0)
 ttk.Label(left_frame, textvariable=hp_var_left).grid(row=7, column=0)
@@ -173,6 +188,8 @@ iv_hp_menu_left.bind("<<ComboboxSelected>>", lambda _: update_stats("left"))
 ttk.Label(left_frame, text="PS_Bonus HP").grid(row=6, column=3)
 ps_bonus_hp_entry_left = ttk.Entry(left_frame, textvariable=ps_bonus_hp_var_left, validate="key", validatecommand=vcmd)
 ps_bonus_hp_entry_left.grid(row=7, column=3)
+ps_bonus_hp_entry_left.bind("<KeyRelease>", lambda _: update_stats("left"))
+ps_bonus_hp_entry_left.bind("<FocusOut>", lambda _: update_stats("left"))
 
 ttk.Label(left_frame, text="DEF").grid(row=8, column=0)
 ttk.Label(left_frame, textvariable=def_var_left).grid(row=9, column=0)
@@ -190,6 +207,8 @@ iv_def_menu_left.bind("<<ComboboxSelected>>", lambda _: update_stats("left"))
 ttk.Label(left_frame, text="PS_Bonus DEF").grid(row=8, column=3)
 ps_bonus_def_entry_left = ttk.Entry(left_frame, textvariable=ps_bonus_def_var_left, validate="key", validatecommand=vcmd)
 ps_bonus_def_entry_left.grid(row=9, column=3)
+ps_bonus_def_entry_left.bind("<KeyRelease>", lambda _: update_stats("left"))
+ps_bonus_def_entry_left.bind("<FocusOut>", lambda _: update_stats("left"))
 
 ttk.Label(left_frame, text="ATT").grid(row=10, column=0)
 ttk.Label(left_frame, textvariable=att_var_left).grid(row=11, column=0)
@@ -207,6 +226,8 @@ iv_att_menu_left.bind("<<ComboboxSelected>>", lambda _: update_stats("left"))
 ttk.Label(left_frame, text="PS_Bonus ATT").grid(row=10, column=3)
 ps_bonus_att_entry_left = ttk.Entry(left_frame, textvariable=ps_bonus_att_var_left, validate="key", validatecommand=vcmd)
 ps_bonus_att_entry_left.grid(row=11, column=3)
+ps_bonus_att_entry_left.bind("<KeyRelease>", lambda _: update_stats("left"))
+ps_bonus_att_entry_left.bind("<FocusOut>", lambda _: update_stats("left"))
 
 # Right panel
 right_frame = ttk.Frame(app)
@@ -233,6 +254,7 @@ ttk.Label(right_frame, text="Lvl").grid(row=4, column=0)
 lvl_menu_right = ttk.Combobox(right_frame, textvariable=lvl_var_right, values=[str(i) for i in range(101)], state='normal')
 lvl_menu_right.grid(row=5, column=0)
 lvl_menu_right.bind("<<ComboboxSelected>>", lambda _: update_stats("right"))
+lvl_menu_right.bind("<KeyRelease>", lambda _: update_stats("right"))
 
 ttk.Label(right_frame, text="HP").grid(row=6, column=0)
 ttk.Label(right_frame, textvariable=hp_var_right).grid(row=7, column=0)
@@ -250,6 +272,8 @@ iv_hp_menu_right.bind("<<ComboboxSelected>>", lambda _: update_stats("right"))
 ttk.Label(right_frame, text="PS_Bonus HP").grid(row=6, column=3)
 ps_bonus_hp_entry_right = ttk.Entry(right_frame, textvariable=ps_bonus_hp_var_right, validate="key", validatecommand=vcmd)
 ps_bonus_hp_entry_right.grid(row=7, column=3)
+ps_bonus_hp_entry_right.bind("<KeyRelease>", lambda _: update_stats("right"))
+ps_bonus_hp_entry_right.bind("<FocusOut>", lambda _: update_stats("right"))
 
 ttk.Label(right_frame, text="DEF").grid(row=8, column=0)
 ttk.Label(right_frame, textvariable=def_var_right).grid(row=9, column=0)
@@ -267,6 +291,8 @@ iv_def_menu_right.bind("<<ComboboxSelected>>", lambda _: update_stats("right"))
 ttk.Label(right_frame, text="PS_Bonus DEF").grid(row=8, column=3)
 ps_bonus_def_entry_right = ttk.Entry(right_frame, textvariable=ps_bonus_def_var_right, validate="key", validatecommand=vcmd)
 ps_bonus_def_entry_right.grid(row=9, column=3)
+ps_bonus_def_entry_right.bind("<KeyRelease>", lambda _: update_stats("right"))
+ps_bonus_def_entry_right.bind("<FocusOut>", lambda _: update_stats("right"))
 
 ttk.Label(right_frame, text="ATT").grid(row=10, column=0)
 ttk.Label(right_frame, textvariable=att_var_right).grid(row=11, column=0)
@@ -284,6 +310,8 @@ iv_att_menu_right.bind("<<ComboboxSelected>>", lambda _: update_stats("right"))
 ttk.Label(right_frame, text="PS_Bonus ATT").grid(row=10, column=3)
 ps_bonus_att_entry_right = ttk.Entry(right_frame, textvariable=ps_bonus_att_var_right, validate="key", validatecommand=vcmd)
 ps_bonus_att_entry_right.grid(row=11, column=3)
+ps_bonus_att_entry_right.bind("<KeyRelease>", lambda _: update_stats("right"))
+ps_bonus_att_entry_right.bind("<FocusOut>", lambda _: update_stats("right"))
 
 # Move power and damage range
 center_frame = ttk.Frame(app)
@@ -303,10 +331,23 @@ ttk.Label(center_frame, text="Max Damage").grid(row=0, column=4)
 max_damage_var = tk.StringVar(value="N/A")
 ttk.Label(center_frame, textvariable=max_damage_var).grid(row=0, column=5)
 
+ttk.Label(center_frame, text="Hits to KO").grid(row=0, column=6)
+hits_to_ko_var = tk.StringVar(value="N/A")
+ttk.Label(center_frame, textvariable=hits_to_ko_var).grid(row=0, column=7)
 
-# Add the checkbox on the left of move power
+# STAB checkbox and type effectiveness
 stab_checkbox = ttk.Checkbutton(center_frame, text="STAB", variable=stab_var, command=update_damage_range)
 stab_checkbox.grid(row=1, column=0, padx=10, pady=10)
+
+ttk.Label(center_frame, text="Type Effectiveness").grid(row=1, column=1)
+effectiveness_var = tk.StringVar(value="1.0")
+effectiveness_menu = ttk.OptionMenu(
+    center_frame, effectiveness_var,
+    "1.0",
+    "0.0 (Immune)", "0.5 (Resist)", "1.0 (Neutral)", "1.5 (Weak)",
+    command=lambda _: update_damage_range()
+)
+effectiveness_menu.grid(row=1, column=2, columnspan=2, sticky="w")
 
 
 

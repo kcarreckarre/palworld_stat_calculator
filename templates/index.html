@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Palworld Damage Calculator</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<header>
+  <h1>Palworld Damage Calculator</h1>
+</header>
+
+<main>
+  <div class="battle-container">
+
+    <!-- ATTACKER -->
+    <div class="pal-card attacker">
+      <div class="card-badge">Attacker</div>
+      <img class="pal-image" id="img-left" src="" alt="Pal">
+
+      <div class="pal-row">
+        <div class="autocomplete-wrapper">
+          <input type="text" id="name-left" class="pal-input" placeholder="Search Pal…" autocomplete="off">
+          <div class="autocomplete-list" id="ac-left"></div>
+        </div>
+        <div class="field-group">
+          <label class="field-label">Lv</label>
+          <input type="number" id="lvl-left" class="input-sm" value="1" min="1" max="60">
+        </div>
+        <div class="field-group">
+          <label class="field-label">Stars</label>
+          <select id="stars-left" class="input-select">
+            <option value="0">0 ☆</option>
+            <option value="1">1 ★</option>
+            <option value="2">2 ★★</option>
+            <option value="3">3 ★★★</option>
+            <option value="4">4 ★★★★</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="stat-block">
+        <div class="stat-row">
+          <span class="stat-tag hp">HP</span>
+          <span class="stat-val" id="hp-left">—</span>
+        </div>
+        <div class="inputs-row">
+          <label class="mini-label">IV
+            <input type="number" id="iv-hp-left" class="input-xs" value="0" min="0" max="100">
+          </label>
+          <label class="mini-label">EV%
+            <input type="number" id="ev-hp-left" class="input-xs" value="0" min="0" max="30">
+          </label>
+          <label class="mini-label">Bonus%
+            <input type="number" id="bonus-hp-left" class="input-xs" value="0" min="0">
+          </label>
+        </div>
+      </div>
+
+      <div class="stat-block">
+        <div class="stat-row">
+          <span class="stat-tag def">DEF</span>
+          <span class="stat-val" id="def-left">—</span>
+        </div>
+        <div class="inputs-row">
+          <label class="mini-label">IV
+            <input type="number" id="iv-def-left" class="input-xs" value="0" min="0" max="100">
+          </label>
+          <label class="mini-label">EV%
+            <input type="number" id="ev-def-left" class="input-xs" value="0" min="0" max="30">
+          </label>
+          <label class="mini-label">Bonus%
+            <input type="number" id="bonus-def-left" class="input-xs" value="0" min="0">
+          </label>
+        </div>
+      </div>
+
+      <div class="stat-block">
+        <div class="stat-row">
+          <span class="stat-tag att">ATT</span>
+          <span class="stat-val" id="att-left">—</span>
+        </div>
+        <div class="inputs-row">
+          <label class="mini-label">IV
+            <input type="number" id="iv-att-left" class="input-xs" value="0" min="0" max="100">
+          </label>
+          <label class="mini-label">EV%
+            <input type="number" id="ev-att-left" class="input-xs" value="0" min="0" max="30">
+          </label>
+          <label class="mini-label">Bonus%
+            <input type="number" id="bonus-att-left" class="input-xs" value="0" min="0">
+          </label>
+        </div>
+      </div>
+    </div>
+
+    <!-- VS -->
+    <div class="vs-col">
+      <span class="vs-text">VS</span>
+    </div>
+
+    <!-- DEFENDER -->
+    <div class="pal-card defender">
+      <div class="card-badge">Defender</div>
+      <img class="pal-image" id="img-right" src="" alt="Pal">
+
+      <div class="pal-row">
+        <div class="autocomplete-wrapper">
+          <input type="text" id="name-right" class="pal-input" placeholder="Search Pal…" autocomplete="off">
+          <div class="autocomplete-list" id="ac-right"></div>
+        </div>
+        <div class="field-group">
+          <label class="field-label">Lv</label>
+          <input type="number" id="lvl-right" class="input-sm" value="1" min="1" max="60">
+        </div>
+        <div class="field-group">
+          <label class="field-label">Stars</label>
+          <select id="stars-right" class="input-select">
+            <option value="0">0 ☆</option>
+            <option value="1">1 ★</option>
+            <option value="2">2 ★★</option>
+            <option value="3">3 ★★★</option>
+            <option value="4">4 ★★★★</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="stat-block">
+        <div class="stat-row">
+          <span class="stat-tag hp">HP</span>
+          <span class="stat-val" id="hp-right">—</span>
+        </div>
+        <div class="inputs-row">
+          <label class="mini-label">IV
+            <input type="number" id="iv-hp-right" class="input-xs" value="0" min="0" max="100">
+          </label>
+          <label class="mini-label">EV%
+            <input type="number" id="ev-hp-right" class="input-xs" value="0" min="0" max="30">
+          </label>
+          <label class="mini-label">Bonus%
+            <input type="number" id="bonus-hp-right" class="input-xs" value="0" min="0">
+          </label>
+        </div>
+      </div>
+
+      <div class="stat-block">
+        <div class="stat-row">
+          <span class="stat-tag def">DEF</span>
+          <span class="stat-val" id="def-right">—</span>
+        </div>
+        <div class="inputs-row">
+          <label class="mini-label">IV
+            <input type="number" id="iv-def-right" class="input-xs" value="0" min="0" max="100">
+          </label>
+          <label class="mini-label">EV%
+            <input type="number" id="ev-def-right" class="input-xs" value="0" min="0" max="30">
+          </label>
+          <label class="mini-label">Bonus%
+            <input type="number" id="bonus-def-right" class="input-xs" value="0" min="0">
+          </label>
+        </div>
+      </div>
+
+      <div class="stat-block">
+        <div class="stat-row">
+          <span class="stat-tag att">ATT</span>
+          <span class="stat-val" id="att-right">—</span>
+        </div>
+        <div class="inputs-row">
+          <label class="mini-label">IV
+            <input type="number" id="iv-att-right" class="input-xs" value="0" min="0" max="100">
+          </label>
+          <label class="mini-label">EV%
+            <input type="number" id="ev-att-right" class="input-xs" value="0" min="0" max="30">
+          </label>
+          <label class="mini-label">Bonus%
+            <input type="number" id="bonus-att-right" class="input-xs" value="0" min="0">
+          </label>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- DAMAGE SECTION -->
+  <div class="damage-card">
+    <div class="damage-header">Damage Calculator</div>
+    <div class="damage-controls">
+      <div class="field-group">
+        <label class="field-label">Move Power</label>
+        <input type="number" id="move-power" class="input-md" value="0" min="0">
+      </div>
+      <label class="stab-label">
+        <input type="checkbox" id="stab"> STAB
+      </label>
+      <div class="field-group">
+        <label class="field-label">Type Effectiveness</label>
+        <select id="effectiveness" class="input-select">
+          <option value="0.0">0× Immune</option>
+          <option value="0.5">0.5× Resist</option>
+          <option value="1.0" selected>1× Neutral</option>
+          <option value="1.5">1.5× Weak</option>
+        </select>
+      </div>
+    </div>
+    <div class="damage-results">
+      <div class="result-box">
+        <div class="result-label">Min Damage</div>
+        <div class="result-val" id="min-damage">—</div>
+      </div>
+      <div class="result-box">
+        <div class="result-label">Max Damage</div>
+        <div class="result-val" id="max-damage">—</div>
+      </div>
+      <div class="result-box accent">
+        <div class="result-label">Hits to KO</div>
+        <div class="result-val" id="hits-to-ko">—</div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<script src="/static/app.js"></script>
+</body>
+</html>

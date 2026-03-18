@@ -4,349 +4,677 @@
     "img_src": "https://palworld.gg/images/full_palicon/T_IceHorse_icon_normal.png",
     "hp": "140",
     "defense": "120",
-    "attack": "140"
+    "attack": "140",
+    "elements": [
+      {
+        "type": "Ice",
+        "img_src": "https://palworld.gg/images/icons/T_Icon_element_s_08.png"
+      }
+    ]
   },
   {
     "name": "Jetragon",
     "img_src": "https://palworld.gg/images/full_palicon/T_JetDragon_icon_normal.png",
     "hp": "110",
     "defense": "110",
-    "attack": "140"
+    "attack": "140",
+    "elements": [
+      {
+        "type": "Dragon",
+        "img_src": "https://palworld.gg/images/icons/T_Icon_element_s_06.png"
+      }
+    ]
   },
   {
     "name": "Paladius",
     "img_src": "https://palworld.gg/images/full_palicon/T_SaintCentaur_icon_normal.png",
     "hp": "130",
     "defense": "145",
-    "attack": "120"
+    "attack": "120",
+    "elements": [
+      {
+        "type": "Normal",
+        "img_src": "https://palworld.gg/images/icons/T_Icon_element_s_00.png"
+      }
+    ]
   },
   {
     "name": "Necromus",
     "img_src": "https://palworld.gg/images/full_palicon/T_BlackCentaur_icon_normal.png",
     "hp": "130",
     "defense": "120",
-    "attack": "145"
+    "attack": "145",
+    "elements": [
+      {
+        "type": "Dark",
+        "img_src": "https://palworld.gg/images/icons/T_Icon_element_s_05.png"
+      }
+    ]
   },
   {
     "name": "Bellanoir",
     "img_src": "https://palworld.gg/images/full_palicon/T_NightLady_icon_normal.png",
     "hp": "120",
     "defense": "100",
-    "attack": "150"
+    "attack": "150",
+    "elements": [
+      {
+        "type": "Dark",
+        "img_src": "https://palworld.gg/images/icons/T_Icon_element_s_05.png"
+      }
+    ]
   },
   {
     "name": "Anubis",
     "img_src": "https://palworld.gg/images/full_palicon/T_Anubis_icon_normal.png",
     "hp": "120",
     "defense": "100",
-    "attack": "130"
+    "attack": "130",
+    "elements": [
+      {
+        "type": "Earth",
+        "img_src": "https://palworld.gg/images/icons/T_Icon_element_s_07.png"
+      }
+    ]
   },
   {
     "name": "Grizzbolt",
     "img_src": "https://palworld.gg/images/full_palicon/T_ElecPanda_icon_normal.png",
     "hp": "105",
     "defense": "100",
-    "attack": "100"
+    "attack": "100",
+    "elements": [
+      {
+        "type": "Electricity",
+        "img_src": "https://palworld.gg/images/icons/T_Icon_element_s_03.png"
+      }
+    ]
   },
   {
     "name": "Jormuntide",
     "img_src": "https://palworld.gg/images/full_palicon/T_Umihebi_icon_normal.png",
     "hp": "130",
     "defense": "100",
-    "attack": "120"
+    "attack": "120",
+    "elements": [
+      {
+        "type": "Dragon",
+        "img_src": "https://palworld.gg/images/icons/T_Icon_element_s_06.png"
+      },
+      {
+        "type": "Water",
+        "img_src": "https://palworld.gg/images/icons/T_Icon_element_s_02.png"
+      }
+    ]
   },
   {
     "name": "Suzaku",
     "img_src": "https://palworld.gg/images/full_palicon/T_Suzaku_icon_normal.png",
     "hp": "120",
     "defense": "105",
-    "attack": "105"
+    "attack": "105",
+    "elements": [
+      {
+        "type": "Fire",
+        "img_src": "https://palworld.gg/images/icons/T_Icon_element_s_01.png"
+      }
+    ]
   },
   {
     "name": "Elphidran Aqua",
     "img_src": "https://palworld.gg/images/full_palicon/T_FairyDragon_Water_icon_normal.png",
     "hp": "115",
     "defense": "95",
-    "attack": "80"
+    "attack": "80",
+    "elements": [
+      {
+        "type": "Dragon",
+        "img_src": "https://palworld.gg/images/icons/T_Icon_element_s_06.png"
+      },
+      {
+        "type": "Water",
+        "img_src": "https://palworld.gg/images/icons/T_Icon_element_s_02.png"
+      }
+    ]
   },
   {
     "name": "Relaxaurus",
     "img_src": "https://palworld.gg/images/full_palicon/T_LazyDragon_icon_normal.png",
     "hp": "110",
     "defense": "70",
-    "attack": "100"
+    "attack": "100",
+    "elements": [
+      {
+        "type": "Dragon",
+        "img_src": "https://palworld.gg/images/icons/T_Icon_element_s_06.png"
+      },
+      {
+        "type": "Water",
+        "img_src": "https://palworld.gg/images/icons/T_Icon_element_s_02.png"
+      }
+    ]
   },
   {
     "name": "Kingpaca",
     "img_src": "https://palworld.gg/images/full_palicon/T_KingAlpaca_icon_normal.png",
     "hp": "120",
     "defense": "90",
-    "attack": "85"
+    "attack": "85",
+    "elements": [
+      {
+        "type": "Normal",
+        "img_src": "https://palworld.gg/images/icons/T_Icon_element_s_00.png"
+      }
+    ]
   },
   {
     "name": "Menasting",
     "img_src": "https://palworld.gg/images/full_palicon/T_DarkScorpion_icon_normal.png",
     "hp": "100",
     "defense": "130",
-    "attack": "100"
+    "attack": "100",
+    "elements": [
+      {
+        "type": "Dark",
+        "img_src": "https://palworld.gg/images/icons/T_Icon_element_s_05.png"
+      },
+      {
+        "type": "Earth",
+        "img_src": "https://palworld.gg/images/icons/T_Icon_element_s_07.png"
+      }
+    ]
   },
   {
     "name": "Blazamut",
     "img_src": "https://palworld.gg/images/full_palicon/T_KingBahamut_icon_normal.png",
     "hp": "100",
     "defense": "120",
-    "attack": "125"
+    "attack": "125",
+    "elements": [
+      {
+        "type": "Fire",
+        "img_src": "https://palworld.gg/images/icons/T_Icon_element_s_01.png"
+      }
+    ]
   },
   {
     "name": "Orserk",
     "img_src": "https://palworld.gg/images/full_palicon/T_ThunderDragonMan_icon_normal.png",
     "hp": "100",
     "defense": "100",
-    "attack": "130"
+    "attack": "130",
+    "elements": [
+      {
+        "type": "Dragon",
+        "img_src": "https://palworld.gg/images/icons/T_Icon_element_s_06.png"
+      },
+      {
+        "type": "Electricity",
+        "img_src": "https://palworld.gg/images/icons/T_Icon_element_s_03.png"
+      }
+    ]
   },
   {
     "name": "Incineram",
     "img_src": "https://palworld.gg/images/full_palicon/T_Baphomet_icon_normal.png",
     "hp": "95",
     "defense": "85",
-    "attack": "100"
+    "attack": "100",
+    "elements": [
+      {
+        "type": "Fire",
+        "img_src": "https://palworld.gg/images/icons/T_Icon_element_s_01.png"
+      },
+      {
+        "type": "Dark",
+        "img_src": "https://palworld.gg/images/icons/T_Icon_element_s_05.png"
+      }
+    ]
   },
   {
     "name": "Lunaris",
     "img_src": "https://palworld.gg/images/full_palicon/T_Mutant_icon_normal.png",
     "hp": "90",
     "defense": "90",
-    "attack": "100"
+    "attack": "100",
+    "elements": [
+      {
+        "type": "Normal",
+        "img_src": "https://palworld.gg/images/icons/T_Icon_element_s_00.png"
+      }
+    ]
   },
   {
     "name": "Pyrin",
     "img_src": "https://palworld.gg/images/full_palicon/T_FireKirin_icon_normal.png",
     "hp": "100",
     "defense": "90",
-    "attack": "95"
+    "attack": "95",
+    "elements": [
+      {
+        "type": "Fire",
+        "img_src": "https://palworld.gg/images/icons/T_Icon_element_s_01.png"
+      }
+    ]
   },
   {
     "name": "Robinquill",
     "img_src": "https://palworld.gg/images/full_palicon/T_RobinHood_icon_normal.png",
     "hp": "90",
     "defense": "80",
-    "attack": "105"
+    "attack": "105",
+    "elements": [
+      {
+        "type": "Leaf",
+        "img_src": "https://palworld.gg/images/icons/T_Icon_element_s_04.png"
+      }
+    ]
   },
   {
     "name": "Kitsun",
     "img_src": "https://palworld.gg/images/full_palicon/T_AmaterasuWolf_icon_normal.png",
     "hp": "100",
     "defense": "100",
-    "attack": "115"
+    "attack": "115",
+    "elements": [
+      {
+        "type": "Fire",
+        "img_src": "https://palworld.gg/images/icons/T_Icon_element_s_01.png"
+      }
+    ]
   },
   {
     "name": "Mossanda",
     "img_src": "https://palworld.gg/images/full_palicon/T_GrassPanda_icon_normal.png",
     "hp": "100",
     "defense": "90",
-    "attack": "90"
+    "attack": "90",
+    "elements": [
+      {
+        "type": "Leaf",
+        "img_src": "https://palworld.gg/images/icons/T_Icon_element_s_04.png"
+      }
+    ]
   },
   {
     "name": "Foxcicle",
     "img_src": "https://palworld.gg/images/full_palicon/T_IceFox_icon_normal.png",
     "hp": "90",
     "defense": "105",
-    "attack": "95"
+    "attack": "95",
+    "elements": [
+      {
+        "type": "Ice",
+        "img_src": "https://palworld.gg/images/icons/T_Icon_element_s_08.png"
+      }
+    ]
   },
   {
     "name": "Nitewing",
     "img_src": "https://palworld.gg/images/full_palicon/T_HawkBird_icon_normal.png",
     "hp": "100",
     "defense": "80",
-    "attack": "95"
+    "attack": "95",
+    "elements": [
+      {
+        "type": "Normal",
+        "img_src": "https://palworld.gg/images/icons/T_Icon_element_s_00.png"
+      }
+    ]
   },
   {
     "name": "Mau",
     "img_src": "https://palworld.gg/images/full_palicon/T_Bastet_icon_normal.png",
     "hp": "70",
     "defense": "70",
-    "attack": "60"
+    "attack": "60",
+    "elements": [
+      {
+        "type": "Dark",
+        "img_src": "https://palworld.gg/images/icons/T_Icon_element_s_05.png"
+      }
+    ]
   },
   {
     "name": "Rushoar",
     "img_src": "https://palworld.gg/images/full_palicon/T_Boar_icon_normal.png",
     "hp": "80",
     "defense": "70",
-    "attack": "70"
+    "attack": "70",
+    "elements": [
+      {
+        "type": "Earth",
+        "img_src": "https://palworld.gg/images/icons/T_Icon_element_s_07.png"
+      }
+    ]
   },
   {
     "name": "Galeclaw",
     "img_src": "https://palworld.gg/images/full_palicon/T_Eagle_icon_normal.png",
     "hp": "75",
     "defense": "60",
-    "attack": "85"
+    "attack": "85",
+    "elements": [
+      {
+        "type": "Normal",
+        "img_src": "https://palworld.gg/images/icons/T_Icon_element_s_00.png"
+      }
+    ]
   },
   {
     "name": "Jolthog",
     "img_src": "https://palworld.gg/images/full_palicon/T_Hedgehog_icon_normal.png",
     "hp": "70",
     "defense": "70",
-    "attack": "75"
+    "attack": "75",
+    "elements": [
+      {
+        "type": "Electricity",
+        "img_src": "https://palworld.gg/images/icons/T_Icon_element_s_03.png"
+      }
+    ]
   },
   {
     "name": "Bristla",
     "img_src": "https://palworld.gg/images/full_palicon/T_LittleBriarRose_icon_normal.png",
     "hp": "80",
     "defense": "80",
-    "attack": "80"
+    "attack": "80",
+    "elements": [
+      {
+        "type": "Leaf",
+        "img_src": "https://palworld.gg/images/icons/T_Icon_element_s_04.png"
+      }
+    ]
   },
   {
     "name": "Hangyu",
     "img_src": "https://palworld.gg/images/full_palicon/T_WindChimes_icon_normal.png",
     "hp": "80",
     "defense": "70",
-    "attack": "70"
+    "attack": "70",
+    "elements": [
+      {
+        "type": "Earth",
+        "img_src": "https://palworld.gg/images/icons/T_Icon_element_s_07.png"
+      }
+    ]
   },
   {
     "name": "Leezpunk",
     "img_src": "https://palworld.gg/images/full_palicon/T_LizardMan_icon_normal.png",
     "hp": "80",
     "defense": "50",
-    "attack": "80"
+    "attack": "80",
+    "elements": [
+      {
+        "type": "Dark",
+        "img_src": "https://palworld.gg/images/icons/T_Icon_element_s_05.png"
+      }
+    ]
   },
   {
     "name": "Fuack",
     "img_src": "https://palworld.gg/images/full_palicon/T_BluePlatypus_icon_normal.png",
     "hp": "60",
     "defense": "60",
-    "attack": "80"
+    "attack": "80",
+    "elements": [
+      {
+        "type": "Water",
+        "img_src": "https://palworld.gg/images/icons/T_Icon_element_s_02.png"
+      }
+    ]
   },
   {
     "name": "Sparkit",
     "img_src": "https://palworld.gg/images/full_palicon/T_ElecCat_icon_normal.png",
     "hp": "60",
     "defense": "70",
-    "attack": "75"
+    "attack": "75",
+    "elements": [
+      {
+        "type": "Electricity",
+        "img_src": "https://palworld.gg/images/icons/T_Icon_element_s_03.png"
+      }
+    ]
   },
   {
     "name": "Kelpsea",
     "img_src": "https://palworld.gg/images/full_palicon/T_Kelpie_icon_normal.png",
     "hp": "70",
     "defense": "70",
-    "attack": "70"
+    "attack": "70",
+    "elements": [
+      {
+        "type": "Water",
+        "img_src": "https://palworld.gg/images/icons/T_Icon_element_s_02.png"
+      }
+    ]
   },
   {
     "name": "Killamari",
     "img_src": "https://palworld.gg/images/full_palicon/T_NegativeOctopus_icon_normal.png",
     "hp": "60",
     "defense": "70",
-    "attack": "60"
+    "attack": "60",
+    "elements": [
+      {
+        "type": "Dark",
+        "img_src": "https://palworld.gg/images/icons/T_Icon_element_s_05.png"
+      }
+    ]
   },
   {
     "name": "Flopie",
     "img_src": "https://palworld.gg/images/full_palicon/T_FlowerRabbit_icon_normal.png",
     "hp": "75",
     "defense": "70",
-    "attack": "65"
+    "attack": "65",
+    "elements": [
+      {
+        "type": "Leaf",
+        "img_src": "https://palworld.gg/images/icons/T_Icon_element_s_04.png"
+      }
+    ]
   },
   {
     "name": "TanZee",
     "img_src": "https://palworld.gg/images/full_palicon/T_Monkey_icon_normal.png",
     "hp": "80",
     "defense": "70",
-    "attack": "70"
+    "attack": "70",
+    "elements": [
+      {
+        "type": "Leaf",
+        "img_src": "https://palworld.gg/images/icons/T_Icon_element_s_04.png"
+      }
+    ]
   },
   {
     "name": "Ribbuny",
     "img_src": "https://palworld.gg/images/full_palicon/T_PinkRabbit_icon_normal.png",
     "hp": "75",
     "defense": "70",
-    "attack": "65"
+    "attack": "65",
+    "elements": [
+      {
+        "type": "Normal",
+        "img_src": "https://palworld.gg/images/icons/T_Icon_element_s_00.png"
+      }
+    ]
   },
   {
     "name": "Flambelle",
     "img_src": "https://palworld.gg/images/full_palicon/T_LavaGirl_icon_normal.png",
     "hp": "60",
     "defense": "80",
-    "attack": "70"
+    "attack": "70",
+    "elements": [
+      {
+        "type": "Fire",
+        "img_src": "https://palworld.gg/images/icons/T_Icon_element_s_01.png"
+      }
+    ]
   },
   {
     "name": "Daedream",
     "img_src": "https://palworld.gg/images/full_palicon/T_DreamDemon_icon_normal.png",
     "hp": "70",
     "defense": "60",
-    "attack": "75"
+    "attack": "75",
+    "elements": [
+      {
+        "type": "Dark",
+        "img_src": "https://palworld.gg/images/icons/T_Icon_element_s_05.png"
+      }
+    ]
   },
   {
     "name": "Depresso",
     "img_src": "https://palworld.gg/images/full_palicon/T_NegativeKoala_icon_normal.png",
     "hp": "70",
     "defense": "70",
-    "attack": "70"
+    "attack": "70",
+    "elements": [
+      {
+        "type": "Dark",
+        "img_src": "https://palworld.gg/images/icons/T_Icon_element_s_05.png"
+      }
+    ]
   },
   {
     "name": "Teafant",
     "img_src": "https://palworld.gg/images/full_palicon/T_Ganesha_icon_normal.png",
     "hp": "70",
     "defense": "70",
-    "attack": "60"
+    "attack": "60",
+    "elements": [
+      {
+        "type": "Water",
+        "img_src": "https://palworld.gg/images/icons/T_Icon_element_s_02.png"
+      }
+    ]
   },
   {
     "name": "Direhowl",
     "img_src": "https://palworld.gg/images/full_palicon/T_Garm_icon_normal.png",
     "hp": "80",
     "defense": "75",
-    "attack": "90"
+    "attack": "90",
+    "elements": [
+      {
+        "type": "Normal",
+        "img_src": "https://palworld.gg/images/icons/T_Icon_element_s_00.png"
+      }
+    ]
   },
   {
     "name": "Bushi",
     "img_src": "https://palworld.gg/images/full_palicon/T_Ronin_icon_normal.png",
     "hp": "80",
     "defense": "80",
-    "attack": "125"
+    "attack": "125",
+    "elements": [
+      {
+        "type": "Fire",
+        "img_src": "https://palworld.gg/images/icons/T_Icon_element_s_01.png"
+      }
+    ]
   },
   {
     "name": "Grintale",
     "img_src": "https://palworld.gg/images/full_palicon/T_NaughtyCat_icon_normal.png",
     "hp": "110",
     "defense": "80",
-    "attack": "80"
+    "attack": "80",
+    "elements": [
+      {
+        "type": "Normal",
+        "img_src": "https://palworld.gg/images/icons/T_Icon_element_s_00.png"
+      }
+    ]
   },
   {
     "name": "Rayhound",
     "img_src": "https://palworld.gg/images/full_palicon/T_ThunderDog_icon_normal.png",
     "hp": "90",
     "defense": "80",
-    "attack": "100"
+    "attack": "100",
+    "elements": [
+      {
+        "type": "Electricity",
+        "img_src": "https://palworld.gg/images/icons/T_Icon_element_s_03.png"
+      }
+    ]
   },
   {
     "name": "Wumpo Botan",
     "img_src": "https://palworld.gg/images/full_palicon/T_Yeti_Grass_icon_normal.png",
     "hp": "140",
     "defense": "110",
-    "attack": "80"
+    "attack": "80",
+    "elements": [
+      {
+        "type": "Leaf",
+        "img_src": "https://palworld.gg/images/icons/T_Icon_element_s_04.png"
+      }
+    ]
   },
   {
     "name": "Tombat",
     "img_src": "https://palworld.gg/images/full_palicon/T_CatBat_icon_normal.png",
     "hp": "95",
     "defense": "80",
-    "attack": "95"
+    "attack": "95",
+    "elements": [
+      {
+        "type": "Dark",
+        "img_src": "https://palworld.gg/images/icons/T_Icon_element_s_05.png"
+      }
+    ]
   },
   {
     "name": "Dinossom",
     "img_src": "https://palworld.gg/images/full_palicon/T_FlowerDinosaur_icon_normal.png",
     "hp": "110",
     "defense": "90",
-    "attack": "85"
+    "attack": "85",
+    "elements": [
+      {
+        "type": "Leaf",
+        "img_src": "https://palworld.gg/images/icons/T_Icon_element_s_04.png"
+      },
+      {
+        "type": "Dragon",
+        "img_src": "https://palworld.gg/images/icons/T_Icon_element_s_06.png"
+      }
+    ]
   },
   {
     "name": "Felbat",
     "img_src": "https://palworld.gg/images/full_palicon/T_CatVampire_icon_normal.png",
     "hp": "100",
     "defense": "110",
-    "attack": "105"
+    "attack": "105",
+    "elements": [
+      {
+        "type": "Dark",
+        "img_src": "https://palworld.gg/images/icons/T_Icon_element_s_05.png"
+      }
+    ]
   },
   {
     "name": "Cinnamoth",
     "img_src": "https://palworld.gg/images/full_palicon/T_CuteButterfly_icon_normal.png",
     "hp": "70",
     "defense": "80",
-    "attack": "80"
+    "attack": "80",
+    "elements": [
+      {
+        "type": "Leaf",
+        "img_src": "https://palworld.gg/images/icons/T_Icon_element_s_04.png"
+      }
+    ]
   }
 ]
